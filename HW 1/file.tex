@@ -20,6 +20,24 @@
 
 \begin{document}
 \maketitle
+\section*{Problem 2.1}
+We have that the forces acting on each mass are
+$$m\frac{d^2x_1}{dt^2}=-K_1x_1+b_2\frac{d(x_2-x_1)}{dt}+K_2(x_2-x_1)$$
+$$m\frac{d^2x_2}{dt^2}=b_2\frac{d(x_2-x_1)}{dt}+K_2(x_2-x_1)-K_3x_2$$
+
+This system will not converge, however the distance between the two masses will converge because of the damper. But since there is no damping in the two outer springs it will continue oscillating forever.
+\section*{Problem 2.12}
+We have for an ideal op amp
+$$A(V_{IN}-V_o)=V_o$$
+therefore we have
+$$V_{IN}=\frac{A+1}{A}V_o$$
+since $A=\infty$ for an ideal op amp
+$$V_{IN}=V_o$$
+For an non ideal op amp we have
+$$V_o(s)=\frac{10^7}{s+1}(V_{IN}(s)-V_o(s))$$
+$$\frac{10^7+s+1}{s+1}V_{o}=\frac{10^7}{s+1}V_{IN}$$
+$$(10^7+s+1)V_{o}=10^7V_{IN}$$
+$$H(s)=\boxed{\frac{V_o}{V_{IN}}=\frac{10^7}{(10^7+s+1)}}$$
 \section*{Problem 3.3}
 \subsection*{(a)}
 \begin{align*}
@@ -32,7 +50,7 @@ f(t)=4\cos(6t)&\to\boxed{\frac{4s}{s^2+36}}
 \cos(3t)&\to\frac{s}{s^2+9}\\
 \sin(3t)&\to\frac{3}{s^2+9}\\
 e^{-t}\sin(3t)&\to\frac{3}{(s+1)^2+9}\\
-f(t)=\sin(3t)+2\cos(3t)+e^{-t}\sin(3t)&\to\frac{s+3}{s^2+9}+\frac{3}{(s+1)^2+9}
+f(t)=\sin(3t)+2\cos(3t)+e^{-t}\sin(3t)&\to\frac{2s+3}{s^2+9}+\frac{3}{(s+1)^2+9}
 \end{align*}
 \section*{Problem 3.7}
 \subsection*{(f)}
@@ -49,16 +67,16 @@ $$a=-b$$
 $$bs+cs=2s$$
 $$16a+c=6$$
 Solving these we get
-$$f(t)=\boxed{\left(0.2353e^{-t}-0.2353\cos(4s)+0.5588\sin(4s)\right)u(t)}$$
+$$f(t)=\boxed{\left(0.2353e^{-t}-0.2353\cos(4s)+0.5588\sin(4s)\right)}$$
 
 \subsection*{(j)}
 $$\frac{1}{s^2}\to tu(t)$$
-$$\frac{e^{-s}}{s^2}\to \boxed{(t-1)u(t-1)}$$
+$$\frac{e^{-s}}{s^2}\to \boxed{(t-1)}$$
 
 \section*{Problem 3.8}
 \subsection*{(b)}
 $$F(s)=\frac{1}{s-1}$$
-$$f(t)=e^{-t}u(t)$$
+$$f(t)=e^{-t}$$
 \section*{Problem 3.9}
 \subsection*{(a)}
 \begin{align*}
@@ -70,14 +88,14 @@ y''(t)-2y'(t)+4y(t)&\to s^2Y(s)-s-2-2(sY(s)-1)+4Y(s)\\
 \end{align*}
 Therefore we have
 $$Y(s)=\frac{s}{s^2-2s+4}=\frac{s-1+3}{(s-1)^2+3}$$
-$$y(t)=e^t (\cos(\sqrt{3}t)+\sqrt{3}\sin(\sqrt{3}t))u(t)$$
+$$y(t)=e^t (\cos(\sqrt{3}t)+\sqrt{3}\sin(\sqrt{3}t))$$
 
 \subsection*{(b)}
 $$y''(t)+y'(t)\to s^2Y(s)-s-2+sY(s)-1$$
 $$(s^2+s)Y(s)-s-3=\frac{1}{s^2+1}$$
 $$Y(s)=\frac{1}{(s^2+1)(s^2+s)}+\frac{s+3}{s^2+s}$$
 $$Y(s)=\frac{s+1}{s^2+s}+\frac{-1}{s^2+1}+\frac{3}{s}-\frac{2}{s+1}$$
-$$y(t)=\boxed{(4-\sin(t)-2e^{-t})u(t)}$$
+$$y(t)=\boxed{(4-\sin(t)-2e^{-t})}$$
 
 
 

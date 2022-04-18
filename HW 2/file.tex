@@ -159,6 +159,15 @@ $$\frac{1.8}{80}<\omega_n$$
 and since we have $\omega_n^2=\frac{K}{J}$ we have
 $$\frac{1.8^2}{80^2}J<K$$
 $$K>\boxed{303.75}$$
+\subsection*{(e)}
+Using the following code, we plot the step responses for the various values of K
+\lstinputlisting[language=Matlab]{Problem226.m}
+From which we get the following graph
 
+\includegraphics[scale=.5]{Fig2.png}
+
+This fits our calculations, since for $K=400,1000,2000$ the rise time is less than $80s$ and for 
+$K=1000,2000$ the overshoot is greater than $10\%$, and conversely for $K=200,400$ the overshoot
+is less than $10\%$.
 
 \end{document}

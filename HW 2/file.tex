@@ -73,22 +73,23 @@ Therefore we have
 $$K=\omega_n^2$$
 $$\zeta\omega_n=1$$
 Furthermore from the peak time and overshoot criterion we have
-$$t_p=\frac{1.8}{\omega_n}=1$$
+$$t_p=\frac{\pi}{\omega_d}=\frac{\pi}{\omega_n\sqrt{1-\zeta^2}}=1$$
 $$M_p=e^{-\pi\frac{\zeta}{\sqrt{1-\zeta^2}}}=0.05$$
-
-Using the equation for $t_p$ we get $\omega_n=1.8$, therefore we have 
-$\zeta=\frac{1}{1.8}$, plugging this into $M_p$ we get
-$$e^{-\pi\frac{1}{\sqrt{1.8^2-1}}}=0.014\neq0.05$$
+Using the equation from $t_p$ and applying $\omega_n=\frac{1}{\zeta}$ we have
+$$\frac{\pi\zeta}{\sqrt{1-\zeta^2}}=1$$
+$$\frac{\zeta}{\sqrt{1-\zeta^2}}=\frac{1}{\pi}$$
+Plugging this into $M_p$ we get
+$$e^{-\pi\frac{1}{\pi}}=0.367\neq0.05$$
 Therefore we cannot meet both specifications just by selecting
 the right value of $K$
 \subsection*{(b)}
-From the peak time and overshoot criterion we have
-$$\omega_n=1.8$$
+From the peak time and overshot criterion we have
+$$\omega_n\sqrt{1-\zeta^2}=\pi$$
 and
-$$\sin^-1(\zeta)=\tan^{-1}\left(\frac{-\ln(0.05)}{\pi}\right)$$
+$$\omega_n\zeta=-\ln(0.05)$$
 
 Therefore we have poles at 
-$$s=-1.303\pm 1.242j$$
+$$s=\ln(0.05)\pm \pi j$$
 Furthermore, the poles for $\frac{Y(s)}{R(s)}$ are at 
 $$s=\frac{-2\pm\sqrt{4-4K}}{2}=-1\pm\sqrt{1-K}$$
 Therefore we get the following sketch for the poles in the s plane 
@@ -98,19 +99,24 @@ Therefore we get the following sketch for the poles in the s plane
 \subsection*{(c)}
 We relax the conditions by multiplying the peak time
 and overshoot with $c$ therefore we have
-$$t_p=\frac{1.8}{\omega_n}=c$$
+$$t_p=\frac{\pi}{\omega_n\sqrt{1-\zeta^2}}=c$$
 $$M_p=e^{-\pi\frac{\zeta}{\sqrt{1-\zeta^2}}}=0.05c$$
-thererfore we have
-$$\omega_n=\frac{1.8}{c}$$
-And since $\zeta\omega_n=1$
-$$\zeta=\frac{c}{1.8}$$
+thererfore since $\omega_n=\frac{1}{\zeta}$
+
+$$\frac{\zeta}{\sqrt{1-\zeta^2}}=\frac{c}{\pi}$$
 therefore we have
-$$-\pi\frac{c}{\sqrt{1.8^2-c^2}}=\ln(0.05)+\ln(c)$$
+$$-c=\ln(0.05)+\ln(c)$$
 Solving this we have
-$$c=1.201$$
-$$\omega_n=1.5$$
-$$\zeta=0.667$$
-$$K=2.25$$
+$$c=2.205$$
+$$M_P=11\%$$
+$$t_p=2.205s$$
+And therefore we have
+$$\frac{1}{\sqrt{\omega_n^2-1}}=\frac{c}{\pi}=0.701$$
+therefore we have
+$$\frac{1}{0.701^2}=\omega_n^2-1$$
+$$K=\omega_n^2=\frac{1}{0.701^2}+1=3.034$$
+
+
 \section*{Problem 3.36}
 \subsection*{(a)}
 Applying the laplace transform we get

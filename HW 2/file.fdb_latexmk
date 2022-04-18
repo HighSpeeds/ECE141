@@ -1,8 +1,8 @@
 # Fdb version 3
-["pdflatex"] 1650243487 "/home/lawrence/Desktop/UCLA/Classes/ECE141/HW 2/file.tex" "/home/lawrence/Desktop/UCLA/Classes/ECE141/HW 2/file.pdf" "file" 1650243488
+["pdflatex"] 1650298173 "/home/lawrence/Desktop/UCLA/Classes/ECE141/HW 2/file.tex" "/home/lawrence/Desktop/UCLA/Classes/ECE141/HW 2/file.pdf" "file" 1650298174
   "/etc/texmf/web2c/texmf.cnf" 1649909990 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/lawrence/Desktop/UCLA/Classes/ECE141/HW 2/file.aux" 1650243488 33 caafbda2f246531a72f60df9bc4c0d5b ""
-  "/home/lawrence/Desktop/UCLA/Classes/ECE141/HW 2/file.tex" 1650243487 4807 e4369f353f42358990fb61029007547e ""
+  "/home/lawrence/Desktop/UCLA/Classes/ECE141/HW 2/file.aux" 1650298174 33 6bbbc4989d0c340984f875bce9661f09 ""
+  "/home/lawrence/Desktop/UCLA/Classes/ECE141/HW 2/file.tex" 1650298173 5029 1cf18339144f741e6cacc46109ae3a4d ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -72,13 +72,13 @@
   "Problem1b.JPG" 1649989313 3476721 f96c48f96347b205a579e9064c9b5456 ""
   "Problem1c.JPG" 1650153582 6731238 69bbcdbb3e5dbd129ccc23e1af33a74a ""
   "Problem1d.JPG" 1650155858 6556258 5465019266808674857291faca1e1b0e ""
-  "Problem2.png" 1650176746 6242 164d6f441abfd3cab0a89663303ae866 ""
-  "Problem3.png" 1650185091 11813 b69001d5925f3cc087e17d259ec4a952 ""
-  "file.aux" 1650243488 33 caafbda2f246531a72f60df9bc4c0d5b "pdflatex"
-  "file.tex" 1650243487 4807 e4369f353f42358990fb61029007547e ""
+  "Problem2.png" 1650296494 6242 164d6f441abfd3cab0a89663303ae866 ""
+  "Problem3.png" 1650297794 11569 c8fcbee540ebb3d4e572e97aa00f81ef ""
+  "file.aux" 1650298174 33 6bbbc4989d0c340984f875bce9661f09 "pdflatex"
+  "file.tex" 1650298173 5029 1cf18339144f741e6cacc46109ae3a4d ""
   (generated)
-  "file.aux"
-  "/home/lawrence/Desktop/UCLA/Classes/ECE141/HW 2/file.pdf"
-  "file.log"
-  "/home/lawrence/Desktop/UCLA/Classes/ECE141/HW 2/file.log"
   "file.pdf"
+  "file.log"
+  "/home/lawrence/Desktop/UCLA/Classes/ECE141/HW 2/file.pdf"
+  "/home/lawrence/Desktop/UCLA/Classes/ECE141/HW 2/file.log"
+  "file.aux"

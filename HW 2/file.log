@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2022.4.13)  18 APR 2022 13:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2022.4.13)  18 APR 2022 18:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -223,36 +223,36 @@ Package pdftex.def Info: Problem1a.JPG  used on input line 24.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-<Problem1b.JPG, id=9, 597.6729pt x 933.9693pt>
+<Problem1b.JPG, id=9, 971.3088pt x 728.4816pt>
 File: Problem1b.JPG Graphic file (type jpg)
 <use Problem1b.JPG>
 Package pdftex.def Info: Problem1b.JPG  used on input line 29.
-(pdftex.def)             Requested size: 298.83571pt x 466.9835pt.
- [2 </home/lawrence/Desktop/UCLA/Classes/ECE141/HW 2/Problem1a.JPG>] [3 </home/lawrence/Desktop/UCLA/Classes/ECE141/HW 2/Problem1b.JPG>]
-<Problem1c.JPG, id=23, 971.3088pt x 728.4816pt>
+(pdftex.def)             Requested size: 388.51665pt x 291.38748pt.
+ [2 </home/lawrence/Desktop/UCLA/Classes/ECE141/HW 2/Problem1a.JPG>]
+<Problem1c.JPG, id=20, 971.3088pt x 728.4816pt>
 File: Problem1c.JPG Graphic file (type jpg)
 <use Problem1c.JPG>
-Package pdftex.def Info: Problem1c.JPG  used on input line 35.
-(pdftex.def)             Requested size: 485.65321pt x 364.23991pt.
- [4] [5 </home/lawrence/Desktop/UCLA/Classes/ECE141/HW 2/Problem1c.JPG>]
-<Problem1d.JPG, id=30, 971.3088pt x 728.4816pt>
+Package pdftex.def Info: Problem1c.JPG  used on input line 33.
+(pdftex.def)             Requested size: 339.96318pt x 254.97238pt.
+ [3 </home/lawrence/Desktop/UCLA/Classes/ECE141/HW 2/Problem1b.JPG>]
+<Problem1d.JPG, id=24, 971.3088pt x 728.4816pt>
 File: Problem1d.JPG Graphic file (type jpg)
 <use Problem1d.JPG>
-Package pdftex.def Info: Problem1d.JPG  used on input line 39.
-(pdftex.def)             Requested size: 485.65321pt x 364.23991pt.
- [6] [7 </home/lawrence/Desktop/UCLA/Classes/ECE141/HW 2/Problem1d.JPG>]
-<Problem2.png, id=38, 433.62pt x 289.08pt>
+Package pdftex.def Info: Problem1d.JPG  used on input line 37.
+(pdftex.def)             Requested size: 339.96318pt x 254.97238pt.
+ [4 </home/lawrence/Desktop/UCLA/Classes/ECE141/HW 2/Problem1c.JPG>] [5 </home/lawrence/Desktop/UCLA/Classes/ECE141/HW 2/Problem1d.JPG>]
+<Problem2.png, id=31, 433.62pt x 289.08pt>
 File: Problem2.png Graphic file (type png)
 <use Problem2.png>
-Package pdftex.def Info: Problem2.png  used on input line 55.
+Package pdftex.def Info: Problem2.png  used on input line 53.
 (pdftex.def)             Requested size: 216.80946pt x 144.53964pt.
- [8 </home/lawrence/Desktop/UCLA/Classes/ECE141/HW 2/Problem2.png>] [9]
-<Problem3.png, id=50, 433.62pt x 289.08pt>
+ [6 </home/lawrence/Desktop/UCLA/Classes/ECE141/HW 2/Problem2.png>] [7]
+<Problem3.png, id=44, 433.62pt x 289.08pt>
 File: Problem3.png Graphic file (type png)
 <use Problem3.png>
-Package pdftex.def Info: Problem3.png  used on input line 97.
+Package pdftex.def Info: Problem3.png  used on input line 95.
 (pdftex.def)             Requested size: 216.80946pt x 144.53964pt.
- [10] [11 </home/lawrence/Desktop/UCLA/Classes/ECE141/HW 2/Problem3.png>] (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+ [8] [9 </home/lawrence/Desktop/UCLA/Classes/ECE141/HW 2/Problem3.png>] (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 ) (/home/lawrence/Desktop/UCLA/Classes/ECE141/HW 2/Problem332.m
 Overfull \hbox (4.79932pt too wide) in paragraph at lines 17--18
@@ -260,12 +260,12 @@ Overfull \hbox (4.79932pt too wide) in paragraph at lines 17--18
  []
 
 )
-<Fig1.png, id=58, 431.211pt x 353.6412pt>
+<Fig1.png, id=52, 431.211pt x 353.6412pt>
 File: Fig1.png Graphic file (type png)
 <use Fig1.png>
-Package pdftex.def Info: Fig1.png  used on input line 123.
+Package pdftex.def Info: Fig1.png  used on input line 121.
 (pdftex.def)             Requested size: 215.60497pt x 176.82016pt.
- [12] [13 </home/lawrence/Desktop/UCLA/Classes/ECE141/HW 2/Fig1.png (PNG copy)>] [14] (/home/lawrence/Desktop/UCLA/Classes/ECE141/HW 2/Problem226.m
+ [10] [11 </home/lawrence/Desktop/UCLA/Classes/ECE141/HW 2/Fig1.png (PNG copy)>] [12] (/home/lawrence/Desktop/UCLA/Classes/ECE141/HW 2/Problem226.m
 LaTeX Font Info:    Trying to load font information for OML+cmr on input line 15.
  (/usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd
 File: omlcmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
@@ -277,7 +277,7 @@ Overfull \hbox (4.79932pt too wide) in paragraph at lines 17--18
 [][][][][][][][][][][][][][][][][][][][] 
  []
 
-[15]
+[13]
 Overfull \hbox (4.79932pt too wide) in paragraph at lines 30--31
 [][][][][][][][][][][][][][][][][][][][] 
  []
@@ -287,18 +287,18 @@ Overfull \hbox (4.79932pt too wide) in paragraph at lines 43--44
 [][][][][][][][][][][][][][][][][][][][] 
  []
 
-[16]
+[14]
 Overfull \hbox (4.79932pt too wide) in paragraph at lines 56--57
 [][][][][][][][][][][][][][][][][][][][] 
  []
 
 )
-<Fig2.png, id=78, 531.44pt x 398.58pt>
+<Fig2.png, id=72, 531.44pt x 398.58pt>
 File: Fig2.png Graphic file (type png)
 <use Fig2.png>
-Package pdftex.def Info: Fig2.png  used on input line 167.
+Package pdftex.def Info: Fig2.png  used on input line 165.
 (pdftex.def)             Requested size: 265.71935pt x 199.2895pt.
- [17 </home/lawrence/Desktop/UCLA/Classes/ECE141/HW 2/Fig2.png (PNG copy)>] (/home/lawrence/Desktop/UCLA/Classes/ECE141/HW 2/file.aux) ) 
+ [15 </home/lawrence/Desktop/UCLA/Classes/ECE141/HW 2/Fig2.png (PNG copy)>] (/home/lawrence/Desktop/UCLA/Classes/ECE141/HW 2/file.aux) ) 
 Here is how much of TeX's memory you used:
  6040 strings out of 481252
  88546 string characters out of 5915888
@@ -308,10 +308,10 @@ Here is how much of TeX's memory you used:
  14 hyphenation exceptions out of 8191
  80i,8n,88p,349b,1709s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/lawrence/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/tcti1200.600pk> </home/lawrence/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on "/home/lawrence/Desktop/UCLA/Classes/ECE141/HW 2/file.pdf" (17 pages, 18279294 bytes).
+Output written on "/home/lawrence/Desktop/UCLA/Classes/ECE141/HW 2/file.pdf" (15 pages, 19240640 bytes).
 PDF statistics:
- 133 PDF objects out of 1000 (max. 8388607)
- 87 compressed objects within 1 object stream
+ 127 PDF objects out of 1000 (max. 8388607)
+ 83 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  41 words of extra memory for PDF output out of 10000 (max. 10000000)
 

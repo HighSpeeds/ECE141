@@ -75,6 +75,35 @@ No sign change, so no roots
 \end{center}
 Two sign changes, so two roots
 \section*{Problem 3.57}
+We have that the transfer function is 
+$$\frac{KK_0\frac{s+z}{(s+p)(s^2-a^2)}}{1+KK_0\frac{s+z}{(s+p)(s^2-a^2)}}=
+\frac{KK_0(s+z)}{(s+p)(s^2-a^2)+KK_0(s+z)}$$
+Therefore we have that the characterist polynomial is:
+ $$s^2+ps^2+(KK_0-a^2)s+KK_0z-pa^2=0$$
+Therefore we have the following routhe array
+\begin{center}
+    \begin{tabular}{ c c c} 
+     $s^4$: & 1 & $KK_0-a^2$\\ 
+     $s^3$: & p & $KK_0z-pa^2$ \\
+     $s^1$: & $KK_0\frac{p-z}{p}$&\\
+     $s^0$: & $KK_0z-pa^2$
+    \end{tabular}
+    \end{center}
+Therefore we have that 
+$$p>0$$
+$$KK_0\frac{p-z}{p}>0$$
+$$KK_0z-pa^2>0$$
+therefore we have
+$$KK_0p>KK_0z$$
+$$KK_0>pa^2>0$$
+therefore we have
+$$p>z>0$$
+$$KK_0>\frac{p}{z}a^2>\frac{z}{z}a^2>a^2$$
+Therefore our conditions for stablity are 
+$$z>0$$
+$$p>z$$
+$$KK_0>a^2$$
+
 
     
 

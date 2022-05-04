@@ -1,0 +1,36 @@
+\UseRawInputEncoding
+\documentclass[12pt]{article}
+\title{ECE 141 Homework 4}
+\usepackage{subcaption}
+\author{Lawrence Liu}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{placeins}
+\newcommand{\Laplace}{\mathscr{L}}
+\setlength{\parskip}{\baselineskip}%
+\setlength{\parindent}{0pt}%
+\usepackage{xcolor}
+\usepackage{listings}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+\usepackage{amssymb}
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour}}
+\lstset{style=mystyle}
+
+\begin{document}
+\maketitle
+\section*{Problem 4.11}
+\subsection*{(a)}
+The transafer function is 
+$$\frac{Y}{W}=\frac{1}{s^2+K+D_c(s)}$$
+Therefore from steady state theorem we have that the steady state error for a ramp input is
+$$\lim_{s\to 0}s\frac{1}{s^2+K+D_c(s)}\frac{1}{s^2}=\lim_{s\to 0}s\frac{1}{s^2+Ks+D_c(s)s}$$
+Therefore we have that in order to have constant steady state error, $D_c(s)$ must have
+a pole at $0$.
+\subsection*{(b)}
+If $D(s)$ has a pole at 0, we have that this is an type 1 system, therefore we can 
+reject step input with 0 steady state error
+\section*{Problem 4.26}
+
+
+\end{document}

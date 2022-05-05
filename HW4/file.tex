@@ -80,5 +80,23 @@ V_p-\frac{0.05sW(S)}{s^2+0.02s+k_p}\\
 \end{align*}
 Therefore if we have $\eta=1$, we must have $\omega_n=0.01$, and thus $\boxed{k_p=0.01^2}$
 \section*{Problem 4.29}
-\subsection*{}
+\subsection*{(a)}
+When the refernce speed is zero we have
+$$\Omega_m=\frac{1}{Js+b+\frac{10K}{0.5s+1}}$$
+Therefore the steady state error is
+
+\begin{align*}
+    e(\infty)&=\lim_{s\to0}s\frac{1}{Js+b+\frac{10K}{0.5s+1}}\frac{1}{s}\\
+    &=\frac{1}{b+10K}
+\end{align*}
+Therefore we have
+\begin{align*}
+    |e(\infty)|&\leq 0.01
+    \frac{1}{|b+10K|}&\leq 0.01\\
+    100&\leq|b+10K|\leq b+10|K|\\
+    \boxed{K\geq 9.9}
+\end{align*}
+We have
+$$\frac{\Omega_m}{\Omega_f}=\frac{(Js+b)(0.5s+1)}{(0.5s+1)(Js+b)+10K}$$
+
 \end{document}

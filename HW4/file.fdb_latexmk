@@ -1,8 +1,8 @@
 # Fdb version 3
-["pdflatex"] 1651737240 "/home/lawrence/Desktop/UCLA/Classes/ECE141/HW4/file.tex" "/home/lawrence/Desktop/UCLA/Classes/ECE141/HW4/file.pdf" "file" 1651737240
+["pdflatex"] 1651738264 "/home/lawrence/Desktop/UCLA/Classes/ECE141/HW4/file.tex" "/home/lawrence/Desktop/UCLA/Classes/ECE141/HW4/file.pdf" "file" 1651738264
   "/etc/texmf/web2c/texmf.cnf" 1649909990 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/lawrence/Desktop/UCLA/Classes/ECE141/HW4/file.aux" 1651737240 32 4d1825978335c8847f72f7c473f9edc8 ""
-  "/home/lawrence/Desktop/UCLA/Classes/ECE141/HW4/file.tex" 1651737240 4155 afd93acc28eeb788fad59df94118ea46 ""
+  "/home/lawrence/Desktop/UCLA/Classes/ECE141/HW4/file.aux" 1651738264 32 4d1825978335c8847f72f7c473f9edc8 ""
+  "/home/lawrence/Desktop/UCLA/Classes/ECE141/HW4/file.tex" 1651738264 4218 0510cb36994acb20c87ee52c58ec571c ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -70,11 +70,11 @@
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1650655531 1283511 f727d6ed83e9f059692fbbb697e395c5 ""
   "fig1.png" 1651735281 17125 e589c5356e36ee76854e22b58b7fb7e7 ""
   "fig2.png" 1651732803 6426 061568e28046f6954a6143c1d2ca1bea ""
-  "file.aux" 1651737240 32 4d1825978335c8847f72f7c473f9edc8 "pdflatex"
-  "file.tex" 1651737240 4155 afd93acc28eeb788fad59df94118ea46 ""
+  "file.aux" 1651738264 32 4d1825978335c8847f72f7c473f9edc8 "pdflatex"
+  "file.tex" 1651738264 4218 0510cb36994acb20c87ee52c58ec571c ""
   (generated)
   "file.pdf"
-  "file.aux"
   "/home/lawrence/Desktop/UCLA/Classes/ECE141/HW4/file.log"
-  "file.log"
   "/home/lawrence/Desktop/UCLA/Classes/ECE141/HW4/file.pdf"
+  "file.log"
+  "file.aux"

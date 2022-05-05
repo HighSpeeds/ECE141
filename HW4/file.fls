@@ -311,6 +311,10 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
 OUTPUT /home/lawrence/Desktop/UCLA/Classes/ECE141/HW4/file.pdf
 INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
+INPUT /home/lawrence/Desktop/UCLA/Classes/ECE141/HW4/fig1.png
+INPUT /home/lawrence/Desktop/UCLA/Classes/ECE141/HW4/fig1.png
+INPUT /home/lawrence/Desktop/UCLA/Classes/ECE141/HW4/fig1.png
+INPUT /home/lawrence/Desktop/UCLA/Classes/ECE141/HW4/fig1.png
 INPUT /home/lawrence/Desktop/UCLA/Classes/ECE141/HW4/file.aux
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb

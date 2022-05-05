@@ -82,7 +82,7 @@ Therefore if we have $\eta=1$, we must have $\omega_n=0.01$, and thus $\boxed{k_
 \section*{Problem 4.29}
 \subsection*{(a)}
 When the refernce speed is zero we have
-$$\Omega_m=\frac{1}{Js+b+\frac{10K}{0.5s+1}}$$
+$$E=\frac{1}{Js+b+\frac{10K}{0.5s+1}}$$
 Therefore the steady state error is
 
 \begin{align*}
@@ -96,9 +96,36 @@ Therefore we have
     100&\leq|b+10K|\leq b+10|K|\\
     \boxed{K\geq 9.9}
 \end{align*}
+\subsection*{(b)}
 We have
 $$\frac{\Omega_m}{\Omega_f}=\frac{(Js+b)(0.5s+1)}{(0.5s+1)(Js+b)+10K}$$
 \includegraphics[scale=0.5]{fig1}
 \FloatBarrier
 \subsection*{(c)}
+We have 
+$$M_p=e^{-\pi\frac{\zeta}{\sqrt{1-\zeta^2}}}\leq 5\%$$
+$$t_s=\frac{4.6}{\zeta\omega_n}\leq 0.1$$
+Therfore the region of the complex plane is 
+\includegraphics[scale=0.5]{fig2}
+\FloatBarrier
+\subsection*{(d)}
+$$\frac{\Omega_m}{\Omega_f}=\frac{(Js+b)(0.5s+1)}{(0.5s+1)(Js+b)+10(k_p+K_Ds)}$$
+Therefore we will have that the characterist polynomial is 
+$$s^2+(12+200K_d)s+20+200k_p=0$$
+Therefore we have
+$$\zeta\omega_m=6+100K_d\geq 46$$
+$$\frac{\pi^2}{\ln^2(0.05)}\zeta^2\geq1-\zeta^2$$
+$$20+200k_p=\omega_m^2\geq\left(\frac{\pi^2}{\ln^2(0.05)}+1\right)\zeta^2\omega^2\geq\left(\frac{\pi^2}{\ln^2(0.05)}+1\right)46^2$$
+$$\boxed{k_p\geq22.115}$$
+$$\boxed{k_D\geq0.4}$$
+\subsection*{(e)}
+$$E=\frac{1}{Js+b+\frac{10(k_Ds+k_p)}{0.5s+1}}$$
+Therefore the steady state error is
+
+\begin{align*}
+    e(\infty)&=\lim_{s\to0}s\frac{1}{Js+b+\frac{10(k_Ds+k_p)}{0.5s+1}}\frac{1}{s}\\
+    &=\frac{1}{b+10k_p}\\
+    &=0.450\%
+\end{align*}
+To eliminate steady state error we could use PID controller
 \end{document}

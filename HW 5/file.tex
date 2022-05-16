@@ -41,5 +41,43 @@ Matlab code to do as well
 \section*{Problem 5.7}
 \subsection*{(c)}
 This functions has 2 zeros at $-3$ and 5 poles: 2 at $0$, 1 at $-10$, and 2 at $-3\pm\frac{5j}{2}$
-Therefore $\alpha=-3.333$ and 
+Therefore $\alpha=-3.333$ and and that the three branches intersecting the real axis, intersect at degrees of
+$60^{\circ}$, $180^{\circ}$, and $300^{\circ}$,
+therefore we have
+\\for pole $-10+0j$, departure angle 1: $180^{\circ}$
+\\for poles $-3\pm2.5j$ the departure angles are $\pm30^{\circ}$
+\\for the dual poles at the $0$ the departure angles are $\pm90^{\circ}$
+\\for the dual zeros at $0$ the arrival angles ar $\pm90^{\circ}$
+Therefore the sketch fo the root locus looks like the following
+\\
+\includegraphics[scale=.15]{Problem2Sketch1.jpg}
+\\Matlab code to do as well
+\subsection*{(e)}
+$L(s)$ had zeros at $-1\pm1j$ and 4 poles, 2 at 0, 1 at $-2$ and $-3$. Therefore we have
+$$\alpha=-2.5$$
+And there are two lines asymptomatic to this at angles of $\pm90^{\circ}$
+\\
+We have
+\\for pole $-3$, departure angle 1: $0.0^{\circ}$
+\\for pole -2, departure angle 1: $180^{\circ}$
+\\for pole 0, departure angle 1: $270^{\circ}$
+\\for pole 0, departure angle 2: $90^{\circ}$
+\\for zero $-1\pm1j$, arrival angle: $\pm71.565^{\circ}$\\
+Furthermore from Rule 6 we have that there are mutliple roots where $s=-2.485$, therefore the sketch of the root locus looks like
+\\
+\includegraphics[scale=.15]{Problem2Sketch2.jpg}
+Matlab code to do as well
+\section*{Problem 5.8}
+\subsection*{(e)}
+$L(s)$ has a zero at $-2$ and 4 poles, 2 at $-6$, one at $0$, and one at $1$. Therefore,
+$$\alpha=-3$$
+and three lines are asymptomatic to it at angles of $180$, $60$, and $180$.
+For the poles we have that:\\
+for pole -6, departure angle 1: $180^{\circ}$
+\\for pole -6, departure angle 2: $0^{\circ}$
+\\for pole 0, departure angle 1: $0^{\circ}$
+\\for pole 1, departure angle 1: $180^{\circ}$
+\\and for the zero we have that the angle of arival is $180^{\circ}$,
+Furthermore from Rule 6 we have that there are multiple roots where $s=-6,0.488$, therefore the sketch of the root locus looks something like
+\\\includegraphics[scale=.15]{Problem3Sketch1.jpg}
 \end{document}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2022.4.22)  16 MAY 2022 12:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2022.4.22)  16 MAY 2022 14:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -237,20 +237,38 @@ Underfull \hbox (badness 10000) in paragraph at lines 33--41
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} </home/lawrence/Desktop/UCLA/Classes/ECE141/HW 5/Problem1Sketch1.jpg>] [2 </home/lawrence/Desktop/UCLA/Classes/ECE141/HW 5/Problem1Sketch2.jpg>] (/home/lawrence/Desktop/UCLA/Classes/ECE141/HW 5/file.aux) ) 
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} </home/lawrence/Desktop/UCLA/Classes/ECE141/HW 5/Problem1Sketch1.jpg>]
+<Problem2Sketch1.jpg, id=16, 1262.7175pt x 1150.2975pt>
+File: Problem2Sketch1.jpg Graphic file (type jpg)
+<use Problem2Sketch1.jpg>
+Package pdftex.def Info: Problem2Sketch1.jpg  used on input line 53.
+(pdftex.def)             Requested size: 189.39944pt x 172.53717pt.
+ [2 </home/lawrence/Desktop/UCLA/Classes/ECE141/HW 5/Problem1Sketch2.jpg>]
+<Problem2Sketch2.jpg, id=20, 798.985pt x 1150.2975pt>
+File: Problem2Sketch2.jpg Graphic file (type jpg)
+<use Problem2Sketch2.jpg>
+Package pdftex.def Info: Problem2Sketch2.jpg  used on input line 68.
+(pdftex.def)             Requested size: 119.84258pt x 172.53717pt.
+ [3 </home/lawrence/Desktop/UCLA/Classes/ECE141/HW 5/Problem2Sketch1.jpg>]
+<Problem3Sketch1.jpg, id=24, 1079.03125pt x 919.435pt>
+File: Problem3Sketch1.jpg Graphic file (type jpg)
+<use Problem3Sketch1.jpg>
+Package pdftex.def Info: Problem3Sketch1.jpg  used on input line 82.
+(pdftex.def)             Requested size: 161.8477pt x 137.90929pt.
+ [4 </home/lawrence/Desktop/UCLA/Classes/ECE141/HW 5/Problem2Sketch2.jpg>] [5 </home/lawrence/Desktop/UCLA/Classes/ECE141/HW 5/Problem3Sketch1.jpg>] (/home/lawrence/Desktop/UCLA/Classes/ECE141/HW 5/file.aux) ) 
 Here is how much of TeX's memory you used:
- 5350 strings out of 481252
- 80357 string characters out of 5915888
+ 5368 strings out of 481252
+ 80756 string characters out of 5915888
  350858 words of memory out of 5000000
- 22259 multiletter control sequences out of 15000+600000
+ 22274 multiletter control sequences out of 15000+600000
  411886 words of font info for 60 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  80i,6n,88p,349b,262s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on "/home/lawrence/Desktop/UCLA/Classes/ECE141/HW 5/file.pdf" (2 pages, 243544 bytes).
+Output written on "/home/lawrence/Desktop/UCLA/Classes/ECE141/HW 5/file.pdf" (5 pages, 585935 bytes).
 PDF statistics:
- 45 PDF objects out of 1000 (max. 8388607)
- 30 compressed objects within 1 object stream
+ 57 PDF objects out of 1000 (max. 8388607)
+ 36 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 

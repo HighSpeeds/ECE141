@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2022.4.22)  16 MAY 2022 15:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2022.4.22)  16 MAY 2022 15:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -215,11 +215,11 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 21.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<Problem1Sketch1.jpg, id=1, 1256.695pt x 1150.2975pt>
+<Problem1Sketch1.jpg, id=1, 1090.0725pt x 1150.2975pt>
 File: Problem1Sketch1.jpg Graphic file (type jpg)
 <use Problem1Sketch1.jpg>
 Package pdftex.def Info: Problem1Sketch1.jpg  used on input line 29.
-(pdftex.def)             Requested size: 188.49611pt x 172.53717pt.
+(pdftex.def)             Requested size: 163.50381pt x 172.53717pt.
 <Problem1Matlab1.png, id=2, 1345.025pt x 1049.9225pt>
 File: Problem1Matlab1.png Graphic file (type png)
 <use Problem1Matlab1.png>
@@ -260,16 +260,16 @@ File: Problem2Matlab1.png Graphic file (type png)
 Package pdftex.def Info: Problem2Matlab1.png  used on input line 70.
 (pdftex.def)             Requested size: 264.58382pt x 207.17032pt.
  [3 </home/lawrence/Desktop/UCLA/Classes/ECE141/HW 5/Problem1Sketch2.jpg> </home/lawrence/Desktop/UCLA/Classes/ECE141/HW 5/Problem1Matlab2.png>] [4 </home/lawrence/Desktop/UCLA/Classes/ECE141/HW 5/Problem2Sketch1.jpg>]
-<Problem2Sketch2.jpg, id=33, 798.985pt x 1150.2975pt>
+<Problem2Sketch2.jpg, id=33, 925.4575pt x 1233.60875pt>
 File: Problem2Sketch2.jpg Graphic file (type jpg)
 <use Problem2Sketch2.jpg>
 Package pdftex.def Info: Problem2Sketch2.jpg  used on input line 91.
-(pdftex.def)             Requested size: 119.84258pt x 172.53717pt.
-<Problem2Matlab2.png, id=34, 1314.9125pt x 1041.8925pt>
+(pdftex.def)             Requested size: 138.81264pt x 185.03333pt.
+<Problem2Matlab2.png, id=34, 1206.5075pt x 1015.795pt>
 File: Problem2Matlab2.png Graphic file (type png)
 <use Problem2Matlab2.png>
 Package pdftex.def Info: Problem2Matlab2.png  used on input line 93.
-(pdftex.def)             Requested size: 262.97784pt x 208.3748pt.
+(pdftex.def)             Requested size: 241.29723pt x 203.1554pt.
  [5 </home/lawrence/Desktop/UCLA/Classes/ECE141/HW 5/Problem2Matlab1.png>] [6 </home/lawrence/Desktop/UCLA/Classes/ECE141/HW 5/Problem2Sketch2.jpg> </home/lawrence/Desktop/UCLA/Classes/ECE141/HW 5/Problem2Matlab2.png>]
 <Problem3Sketch1.jpg, id=43, 1079.03125pt x 919.435pt>
 File: Problem3Sketch1.jpg Graphic file (type jpg)
@@ -291,7 +291,7 @@ Here is how much of TeX's memory you used:
  14 hyphenation exceptions out of 8191
  80i,6n,88p,349b,262s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on "/home/lawrence/Desktop/UCLA/Classes/ECE141/HW 5/file.pdf" (8 pages, 770813 bytes).
+Output written on "/home/lawrence/Desktop/UCLA/Classes/ECE141/HW 5/file.pdf" (8 pages, 759766 bytes).
 PDF statistics:
  83 PDF objects out of 1000 (max. 8388607)
  48 compressed objects within 1 object stream

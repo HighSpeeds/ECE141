@@ -313,12 +313,23 @@ INPUT /home/lawrence/Desktop/UCLA/Classes/ECE141/HW 5/Problem1Sketch1.jpg
 INPUT /home/lawrence/Desktop/UCLA/Classes/ECE141/HW 5/Problem1Sketch1.jpg
 OUTPUT /home/lawrence/Desktop/UCLA/Classes/ECE141/HW 5/file.pdf
 INPUT /home/lawrence/Desktop/UCLA/Classes/ECE141/HW 5/Problem1Sketch1.jpg
-INPUT /home/lawrence/Desktop/UCLA/Classes/ECE141/HW 5/Problem1Sketch2.jpg
-INPUT /home/lawrence/Desktop/UCLA/Classes/ECE141/HW 5/Problem1Sketch2.jpg
-INPUT /home/lawrence/Desktop/UCLA/Classes/ECE141/HW 5/Problem1Sketch2.jpg
-INPUT /home/lawrence/Desktop/UCLA/Classes/ECE141/HW 5/Problem1Sketch2.jpg
-INPUT /home/lawrence/Desktop/UCLA/Classes/ECE141/HW 5/Problem1Sketch2.jpg
+INPUT /home/lawrence/Desktop/UCLA/Classes/ECE141/HW 5/Problem1Matlab1.png
+INPUT /home/lawrence/Desktop/UCLA/Classes/ECE141/HW 5/Problem1Matlab1.png
+INPUT /home/lawrence/Desktop/UCLA/Classes/ECE141/HW 5/Problem1Matlab1.png
+INPUT /home/lawrence/Desktop/UCLA/Classes/ECE141/HW 5/Problem1Matlab1.png
+INPUT /home/lawrence/Desktop/UCLA/Classes/ECE141/HW 5/Problem1Matlab1.png
 INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmtt12.tfm
+INPUT /home/lawrence/Desktop/UCLA/Classes/ECE141/HW 5/Problem1Sketch2.jpg
+INPUT /home/lawrence/Desktop/UCLA/Classes/ECE141/HW 5/Problem1Sketch2.jpg
+INPUT /home/lawrence/Desktop/UCLA/Classes/ECE141/HW 5/Problem1Sketch2.jpg
+INPUT /home/lawrence/Desktop/UCLA/Classes/ECE141/HW 5/Problem1Sketch2.jpg
+INPUT /home/lawrence/Desktop/UCLA/Classes/ECE141/HW 5/Problem1Sketch2.jpg
+INPUT /home/lawrence/Desktop/UCLA/Classes/ECE141/HW 5/Problem1Matlab2.png
+INPUT /home/lawrence/Desktop/UCLA/Classes/ECE141/HW 5/Problem1Matlab2.png
+INPUT /home/lawrence/Desktop/UCLA/Classes/ECE141/HW 5/Problem1Matlab2.png
+INPUT /home/lawrence/Desktop/UCLA/Classes/ECE141/HW 5/Problem1Matlab2.png
+INPUT /home/lawrence/Desktop/UCLA/Classes/ECE141/HW 5/Problem1Matlab2.png
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /home/lawrence/Desktop/UCLA/Classes/ECE141/HW 5/Problem2Sketch1.jpg
@@ -326,16 +337,31 @@ INPUT /home/lawrence/Desktop/UCLA/Classes/ECE141/HW 5/Problem2Sketch1.jpg
 INPUT /home/lawrence/Desktop/UCLA/Classes/ECE141/HW 5/Problem2Sketch1.jpg
 INPUT /home/lawrence/Desktop/UCLA/Classes/ECE141/HW 5/Problem2Sketch1.jpg
 INPUT /home/lawrence/Desktop/UCLA/Classes/ECE141/HW 5/Problem2Sketch1.jpg
+INPUT /home/lawrence/Desktop/UCLA/Classes/ECE141/HW 5/Problem2Matlab1.png
+INPUT /home/lawrence/Desktop/UCLA/Classes/ECE141/HW 5/Problem2Matlab1.png
+INPUT /home/lawrence/Desktop/UCLA/Classes/ECE141/HW 5/Problem2Matlab1.png
+INPUT /home/lawrence/Desktop/UCLA/Classes/ECE141/HW 5/Problem2Matlab1.png
+INPUT /home/lawrence/Desktop/UCLA/Classes/ECE141/HW 5/Problem2Matlab1.png
 INPUT /home/lawrence/Desktop/UCLA/Classes/ECE141/HW 5/Problem2Sketch2.jpg
 INPUT /home/lawrence/Desktop/UCLA/Classes/ECE141/HW 5/Problem2Sketch2.jpg
 INPUT /home/lawrence/Desktop/UCLA/Classes/ECE141/HW 5/Problem2Sketch2.jpg
 INPUT /home/lawrence/Desktop/UCLA/Classes/ECE141/HW 5/Problem2Sketch2.jpg
 INPUT /home/lawrence/Desktop/UCLA/Classes/ECE141/HW 5/Problem2Sketch2.jpg
+INPUT /home/lawrence/Desktop/UCLA/Classes/ECE141/HW 5/Problem2Matlab2.png
+INPUT /home/lawrence/Desktop/UCLA/Classes/ECE141/HW 5/Problem2Matlab2.png
+INPUT /home/lawrence/Desktop/UCLA/Classes/ECE141/HW 5/Problem2Matlab2.png
+INPUT /home/lawrence/Desktop/UCLA/Classes/ECE141/HW 5/Problem2Matlab2.png
+INPUT /home/lawrence/Desktop/UCLA/Classes/ECE141/HW 5/Problem2Matlab2.png
 INPUT /home/lawrence/Desktop/UCLA/Classes/ECE141/HW 5/Problem3Sketch1.jpg
 INPUT /home/lawrence/Desktop/UCLA/Classes/ECE141/HW 5/Problem3Sketch1.jpg
 INPUT /home/lawrence/Desktop/UCLA/Classes/ECE141/HW 5/Problem3Sketch1.jpg
 INPUT /home/lawrence/Desktop/UCLA/Classes/ECE141/HW 5/Problem3Sketch1.jpg
 INPUT /home/lawrence/Desktop/UCLA/Classes/ECE141/HW 5/Problem3Sketch1.jpg
+INPUT /home/lawrence/Desktop/UCLA/Classes/ECE141/HW 5/Problem3Matlab1.png
+INPUT /home/lawrence/Desktop/UCLA/Classes/ECE141/HW 5/Problem3Matlab1.png
+INPUT /home/lawrence/Desktop/UCLA/Classes/ECE141/HW 5/Problem3Matlab1.png
+INPUT /home/lawrence/Desktop/UCLA/Classes/ECE141/HW 5/Problem3Matlab1.png
+INPUT /home/lawrence/Desktop/UCLA/Classes/ECE141/HW 5/Problem3Matlab1.png
 INPUT /home/lawrence/Desktop/UCLA/Classes/ECE141/HW 5/file.aux
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb
@@ -345,3 +371,4 @@ INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb

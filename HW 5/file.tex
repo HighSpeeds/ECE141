@@ -27,7 +27,15 @@ And the departure angle for poles $-1\pm3j$ is $\pm161.565^{\circ}$, And the ari
 Therefore the sketch fo the root locus looks like the following
 \\
 \includegraphics[scale=.15]{Problem1Sketch1.jpg}
-\\Matlab code to do as well
+\\This coresponds well with the matlab root locus plot:\\
+\includegraphics[scale=.15]{Problem1Matlab1.png}
+\\That was produced with this code
+\begin{verbatim}
+sys = tf([1 0 1],[1 0 4 0]);
+rlocus(sys)
+ylim([-2.5 2.5])
+xlim([-2.5 2.5])
+\end{verbatim}
 
 \subsection*{(e)}
 $L(s)$ has zeros at $\pm j$, and poles at $0$ and $\pm4j$, therefore we have $\alpha=0$
@@ -36,8 +44,15 @@ And the departure angle for poles $\pm2j$ is $180^{\circ}$, And the arival angle
 Therefore the sketch fo the root locus looks like the following
 \\
 \includegraphics[scale=.15]{Problem1Sketch2.jpg}
-\\
-Matlab code to do as well
+\\This coresponds well with the matlab root locus plot:\\
+\includegraphics[scale=.15]{Problem1Matlab2.png}
+\\That was produced with this code
+\begin{verbatim}
+sys = tf([1 2 8],[1 2 10 0]);
+rlocus(sys)
+ylim([-3.5 3.5])
+xlim([-3.5 3.5])
+\end{verbatim}
 \section*{Problem 5.7}
 \subsection*{(c)}
 This functions has 2 zeros at $-3$ and 5 poles: 2 at $0$, 1 at $-10$, and 2 at $-3\pm\frac{5j}{2}$
@@ -51,7 +66,15 @@ therefore we have
 Therefore the sketch fo the root locus looks like the following
 \\
 \includegraphics[scale=.15]{Problem2Sketch1.jpg}
-\\Matlab code to do as well
+\\This coresponds well with the matlab root locus plot:\\
+\includegraphics[scale=.2]{Problem2Matlab1.png}
+\\That was produced with this code
+\begin{verbatim}
+sys = tf([1 6 9],[1 16 85 250 0 0]);
+rlocus(sys)
+ylim([-10 10])
+xlim([-12.5 2.5])
+\end{verbatim}
 \subsection*{(e)}
 $L(s)$ had zeros at $-1\pm1j$ and 4 poles, 2 at 0, 1 at $-2$ and $-3$. Therefore we have
 $$\alpha=-2.5$$
@@ -66,7 +89,15 @@ We have
 Furthermore from Rule 6 we have that there are mutliple roots where $s=-2.485$, therefore the sketch of the root locus looks like
 \\
 \includegraphics[scale=.15]{Problem2Sketch2.jpg}
-Matlab code to do as well
+\\This coresponds well with the matlab root locus plot:\\
+\includegraphics[scale=.2]{Problem2Matlab2.png}
+\\That was produced with this code
+\begin{verbatim}
+sys = tf([1 6 9],[1 16 85 250 0 0]);
+rlocus(sys)
+ylim([-10 10])
+xlim([-12.5 2.5])
+\end{verbatim}
 \section*{Problem 5.8}
 \subsection*{(e)}
 $L(s)$ has a zero at $-2$ and 4 poles, 2 at $-6$, one at $0$, and one at $1$. Therefore,
@@ -80,4 +111,13 @@ for pole -6, departure angle 1: $180^{\circ}$
 \\and for the zero we have that the angle of arival is $180^{\circ}$,
 Furthermore from Rule 6 we have that there are multiple roots where $s=-6,0.488$, therefore the sketch of the root locus looks something like
 \\\includegraphics[scale=.15]{Problem3Sketch1.jpg}
+\\This coresponds well with the matlab root locus plot:\\
+\includegraphics[scale=.2]{Problem3Matlab1.png}
+\\That was produced with this code
+\begin{verbatim}
+sys = tf([1 2],[1 11 24 -36 0]);
+rlocus(sys)
+ylim([-7.5 7.5])
+xlim([-10 5])
+\end{verbatim}
 \end{document}

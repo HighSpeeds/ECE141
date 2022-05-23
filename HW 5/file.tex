@@ -31,14 +31,14 @@ Therefore the sketch fo the root locus looks like the following
 \includegraphics[scale=.15]{Problem1Matlab1.png}
 \\That was produced with this code
 \begin{verbatim}
-sys = tf([1 0 1],[1 0 4 0]);
+sys = tf([1 2 8],[1 2 10 0]);
 rlocus(sys)
-ylim([-2.5 2.5])
-xlim([-2.5 2.5])
+ylim([-3.5 3.5])
+xlim([-3.5 3.5])
 \end{verbatim}
 
 \subsection*{(e)}
-$L(s)$ has zeros at $\pm j$, and poles at $0$ and $\pm4j$, therefore we have $\alpha=0$
+$L(s)$ has zeros at $\pm j$, and poles at $0$ and $\pm2j$, therefore we have $\alpha=0$
 $\phi_{1}=180^{\circ}$, 
 And the departure angle for poles $\pm2j$ is $180^{\circ}$, And the arival angle for the zeros $\pm1j$ is $180^{\circ}$\\\\
 Therefore the sketch fo the root locus looks like the following
@@ -48,19 +48,19 @@ Therefore the sketch fo the root locus looks like the following
 \includegraphics[scale=.15]{Problem1Matlab2.png}
 \\That was produced with this code
 \begin{verbatim}
-sys = tf([1 2 8],[1 2 10 0]);
+sys = tf([1 0 1],[1 0 4 0]);
 rlocus(sys)
-ylim([-3.5 3.5])
-xlim([-3.5 3.5])
+ylim([-2.5 2.5])
+xlim([-2.5 2.5])
 \end{verbatim}
 \section*{Problem 5.7}
 \subsection*{(c)}
-This functions has 2 zeros at $-3$ and 5 poles: 2 at $0$, 1 at $-10$, and 2 at $-3\pm\frac{5j}{2}$
+This functions has 2 zeros at $-3$ and 5 poles: 2 at $0$, 1 at $-10$, and 2 at $-3\pm4j$
 Therefore $\alpha=-3.333$ and and that the three branches intersecting the real axis, intersect at degrees of
 $60^{\circ}$, $180^{\circ}$, and $300^{\circ}$,
 therefore we have
 \\for pole $-10+0j$, departure angle 1: $180^{\circ}$
-\\for poles $-3\pm2.5j$ the departure angles are $\pm30^{\circ}$
+\\for poles $-3\pm4j$ the departure angles are $\pm13.484^{\circ}$
 \\for the dual poles at the $0$ the departure angles are $\pm90^{\circ}$
 \\for the dual zeros at $0$ the arrival angles ar $\pm90^{\circ}$
 Therefore the sketch fo the root locus looks like the following
@@ -77,7 +77,7 @@ xlim([-12.5 2.5])
 \end{verbatim}
 \subsection*{(e)}
 $L(s)$ had zeros at $-1\pm1j$ and 4 poles, 2 at 0, 1 at $-2$ and $-3$. Therefore we have
-$$\alpha=-2.5$$
+$$\alpha=-1.5$$
 And there are two lines asymptomatic to this at angles of $\pm90^{\circ}$
 \\
 We have

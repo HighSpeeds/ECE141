@@ -1,8 +1,8 @@
 # Fdb version 3
-["pdflatex"] 1653345721 "/home/lawrence/Desktop/UCLA/Classes/ECE141/HW 6/file.tex" "/home/lawrence/Desktop/UCLA/Classes/ECE141/HW 6/file.pdf" "file" 1653345721
+["pdflatex"] 1653371305 "/home/lawrence/Desktop/UCLA/Classes/ECE141/HW 6/file.tex" "/home/lawrence/Desktop/UCLA/Classes/ECE141/HW 6/file.pdf" "file" 1653371305
   "/etc/texmf/web2c/texmf.cnf" 1649909990 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/lawrence/Desktop/UCLA/Classes/ECE141/HW 6/file.aux" 1653345721 32 c81c40425fbb5e93b90fba65da0b5e61 ""
-  "/home/lawrence/Desktop/UCLA/Classes/ECE141/HW 6/file.tex" 1653345721 2127 2fbad198406b7175c71f407a767ffc32 ""
+  "/home/lawrence/Desktop/UCLA/Classes/ECE141/HW 6/file.aux" 1653371305 32 f852561997c05a7d986acd1deeb530ec ""
+  "/home/lawrence/Desktop/UCLA/Classes/ECE141/HW 6/file.tex" 1653371305 4074 8eeeb9e2339b3df5e0202e551ed7bfc7 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -25,6 +25,7 @@
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmtt12.tfm" 1136768653 772 9a936b7f5e2ff0557fce0f62822f0bbf ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1248133631 32080 340ef9bf63678554ee606688e7b5339d ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb" 1248133631 36741 fa121aac0049305630cf160b86157ee4 ""
+  "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb" 1248133631 37166 8ab3487cbe3ab49ebce74c29ea2418db ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb" 1248133631 35469 70d41d2b9ea31d5d813066df7c99281c ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1248133631 32722 d7379af29a190c3f453aba36302ff5a9 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb" 1248133631 32362 179c33bbf43f19adbb3825bb4e36e57a ""
@@ -71,11 +72,14 @@
   "Problem1fig2.jpg" 1653345294 352594 5f26e884c0cd2ef41eedd9db66a8818c ""
   "Problem1fig3.jpg" 1653345571 133503 5b899783c29fbd964893ae228982bcba ""
   "Problem1fig4.png" 1653345542 63435 d1ce0f3f98f73d6f7bd8f6965e5b7a83 ""
-  "file.aux" 1653345721 32 c81c40425fbb5e93b90fba65da0b5e61 "pdflatex"
-  "file.tex" 1653345721 2127 2fbad198406b7175c71f407a767ffc32 ""
+  "Problem2Fig1.png" 1653361083 38927 ea8628d4c80a4685223da20c3577e21b ""
+  "Problem2Fig2.png" 1653371229 47911 46c793859715da40f8852f4b5b76fedb ""
+  "Problem2Fig3.png" 1653371132 48771 f2acd0260adb03a3c77187e5858fb95e ""
+  "file.aux" 1653371305 32 f852561997c05a7d986acd1deeb530ec "pdflatex"
+  "file.tex" 1653371305 4074 8eeeb9e2339b3df5e0202e551ed7bfc7 ""
   (generated)
-  "file.log"
   "file.aux"
+  "/home/lawrence/Desktop/UCLA/Classes/ECE141/HW 6/file.log"
+  "file.log"
   "file.pdf"
   "/home/lawrence/Desktop/UCLA/Classes/ECE141/HW 6/file.pdf"
-  "/home/lawrence/Desktop/UCLA/Classes/ECE141/HW 6/file.log"

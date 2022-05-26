@@ -1,0 +1,43 @@
+\documentclass[12pt]{article}
+\title{ECE 141 Homework 4}
+\usepackage{subcaption}
+\author{Lawrence Liu}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{placeins}
+\newcommand{\Laplace}{\mathscr{L}}
+\setlength{\parskip}{\baselineskip}%
+\setlength{\parindent}{0pt}%
+\usepackage{xcolor}
+\usepackage{listings}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+\usepackage{amssymb}
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour}}
+\lstset{style=mystyle}
+
+\begin{document}
+\maketitle
+\section*{Problem 1}
+We have that $$\beta=\arctan(\frac{l_r}{l_r+l_f}\tan(u))$$
+therefore
+$$\tan(\beta)=\frac{l_r}{l_r+l_f}\tan(u)$$
+therefore since the range of $\tan$ is $-\infty$ to $\infty$ for any $\beta$ we can find a $u$ that satisfies the equation.
+
+\section*{Problem 2}
+We have that
+$$\frac{d}{dt}y=v\sin(\psi+\beta)$$
+$$\frac{d}{dt}\psi=\frac{v}{l_R}\sin(\beta)$$
+$$\beta=\arctan(\frac{l_r}{l_r+l_f}\tan(u))$$
+Linearizing around $\psi=0$ $\beta=0$, we have
+$$\frac{d}{dt}y=v(\psi+\beta)$$
+$$\frac{d}{dt}\psi=\frac{v}{l_R}\beta$$
+$$\beta=\frac{l_r}{l_r+l_f}u$$
+therefore taking the laplace transform we have
+$$sY=v(\psi+\beta)$$
+$$s\psi=\frac{v}{l_r}\beta$$
+$$\beta=\frac{l_r}{l_r+l_f}U$$
+Therefore we get
+$$sY=v(\frac{v+l_r}{l_r+l_f}U)$$
+$$\frac{Y}{U}=\frac{v(l_r+v)}{s(l_r+l_f)}$$
+\end{document}

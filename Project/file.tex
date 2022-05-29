@@ -42,6 +42,12 @@ $$\frac{Y(s)}{\beta}=\frac{v(v+l_r s)}{l_r s^2}$$
 So now with a controller $D_c(s)$ and unity feedback we have that the transfer function is
 $$\frac{Y}{R}=\frac{D_c(s)\frac{v(v+l_r s)}{l_r s^2}}{1+D_c(s)\frac{v(v+l_r s)}{l_r s^2}}$$
 
+Letting the controller be a PID controller, we have that the characteristic polynomial is
+$$l_r s^3+(k_ps+k_ds^2+k_i)(v^2+l_r v s)=0$$
+$$l_r(1+k_d v)s^3+(k_dv^2+l_r v k_p)s^2+(k_pv^2+l_r v k_i)s+v^2k_i=0$$
+$$s^3+\frac{(k_dv^2+l_r v k_p)}{l_r(1+k_d v)}s^2+\frac{(k_pv^2+l_r v k_i)}{l_r(1+k_d v)}s+\frac{v^2k_i}{l_r(1+k_d v)}=0$$
+
+
 Therefore the error is
 $$E(s)=R(s)-Y(s)=R(s)-\frac{D_c(s)\frac{v(v+l_r s)}{l_r s^2}}{1+D_c(s)\frac{v(v+l_r s)}{l_r s^2}}R(s)$$
 To model a disturbance of length $d$ starting at time $t_1$ and ending at time $t_2$, we let $r(t)=du(t-t_1)-du(t-t_2)$.

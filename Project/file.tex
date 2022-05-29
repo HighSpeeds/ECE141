@@ -39,5 +39,15 @@ Therefore we get
 $$sY=v(\frac{v}{l_r s}+1)\beta$$
 Therefore the transfer function is
 $$\frac{Y(s)}{\beta}=\frac{v(v+l_r s)}{l_r s^2}$$
-So now with a controller $C(s)$ we have that the transfer 
+So now with a controller $D_c(s)$ and unity feedback we have that the transfer function is
+$$\frac{Y}{R}=\frac{D_c(s)\frac{v(v+l_r s)}{l_r s^2}}{1+D_c(s)\frac{v(v+l_r s)}{l_r s^2}}$$
+
+Therefore the error is
+$$E(s)=R(s)-Y(s)=R(s)-\frac{D_c(s)\frac{v(v+l_r s)}{l_r s^2}}{1+D_c(s)\frac{v(v+l_r s)}{l_r s^2}}R(s)$$
+To model a disturbance of length $d$ starting at time $t_1$ and ending at time $t_2$, we let $r(t)=du(t-t_1)-du(t-t_2)$.
+and let the controller be a simple $k_p$ controller.
+
+simulating in simulink with $k_p=1$ and $d=1$ and $t_1=4$ and $t_2=6$, we get the following plot for $y(t)$.\\
+\includegraphics[scale=0.5]{LinearizedProblem1.jpg}
+\\As we can see, the controller stabilizes the car at $y=0$.
 \end{document}

@@ -86,6 +86,13 @@ which outputs the following pole zero plot.\\
 \includegraphics[scale=0.4]{Problem2Fig1.png}\\
 As we can see, the poles all have their real parts less than 0, which means the system is stable.
 \section*{Problem 3}
-First we must compute the non linearized transfer function for the system
+The blockdiagram for the nonlinear system looks like the following\\
+\includegraphics[scale=0.4]{Problem3BlockDiagram.PNG}\\
+We can modify the inital conditions by modifying the inital conditions for the itegrator blocks. We define good behaviour such that the absolute value of $y$ is less than
+$\frac{3.0-1.8}{2}=0.6$, ie the car cannot move out of its own line
+\\\\
+With the initial condition $y(0^+)=0.1$, and $\psi(0^+)=0$ the controller display's unacceptabl behavior, see the plot below.\\
+\includegraphics[scale=0.5]{Problem3y0.1psi0.jpg}\\
+The car will initially move further away from $y=0$, reaching a max of around $y=3.5$ which is almost one lane away from the lane it needs to keep track off.
 
 \end{document}

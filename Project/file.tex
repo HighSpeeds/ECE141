@@ -46,14 +46,46 @@ Letting the controller be a PID controller, we have that the characteristic poly
 $$l_r s^3+(k_ps+k_ds^2+k_i)(v^2+l_r v s)=0$$
 $$l_r(1+k_d v)s^3+(k_dv^2+l_r v k_p)s^2+(k_pv^2+l_r v k_i)s+v^2k_i=0$$
 $$s^3+\frac{(k_dv^2+l_r v k_p)}{l_r(1+k_d v)}s^2+\frac{(k_pv^2+l_r v k_i)}{l_r(1+k_d v)}s+\frac{v^2k_i}{l_r(1+k_d v)}=0$$
+picking $k_p=1$, $k_i=1$, $k_d=1$ we get the following polynomial
+$$s^3+9.5908s^2+9.5908s+8.6509=0$$
+Routh array of this polynomial can be computed using the following code in matlab
+\begin{verbatim}
+sympref('FloatingPointOutput',true)
+syms  EPS
+k_p=1;
+k_d=1;
+k_i=1; 
+v=15.6464;
+l_r=1.7;
+ra=routh([1  (k_d*v^2+l_r*v*k_p)/(l_r*(1+k_d*v)) (k_p*v^2+l_r*v*k_i)/(l_r*(1+k_d*v)) v^2*k_i/(l_r*(1+k_d*v))],EPS);
+simplify(ra)
+\end{verbatim}
+which outputs the following routh array
+$$\begin{matrix}
+    1 & 9.5908\\
+    9.5908& 8.6509\\
+8.6888&      0\\
+8.6509&      0\\
+\end{matrix}$$
+Therefore the controller makes the system stable, we can confirm this by looking at the poles
+plotting out the pole zero plot with the following code 
+\begin{verbatim}
+sympref('FloatingPointOutput',true)
+syms  EPS
+k_p=1;
+k_d=1;
+k_i=1; 
+v=15.6464;
+l_r=1.7;
+p=[(l_r*(1+k_d*v))  (k_d*v^2+l_r*v*k_p) (k_p*v^2+l_r*v*k_i) v^2*k_i]
+sys = tf([(l_r*(k_d*v))  (k_d*v^2+l_r*v*k_p) (k_p*v^2+l_r*v*k_i) v^2*k_i],p);
+h = pzplot(sys);
+grid on
+\end{verbatim}
+which outputs the following pole zero plot.\\
+\includegraphics[scale=0.4]{Problem2Fig1.png}\\
+As we can see, the poles all have their real parts less than 0, which means the system is stable.
+\section*{Problem 3}
+First we must compute the non linearized transfer function for the system
 
-
-Therefore the error is
-$$E(s)=R(s)-Y(s)=R(s)-\frac{D_c(s)\frac{v(v+l_r s)}{l_r s^2}}{1+D_c(s)\frac{v(v+l_r s)}{l_r s^2}}R(s)$$
-To model a disturbance of length $d$ starting at time $t_1$ and ending at time $t_2$, we let $r(t)=du(t-t_1)-du(t-t_2)$.
-and let the controller be a simple $k_p$ controller.
-
-simulating in simulink with $k_p=1$ and $d=1$ and $t_1=4$ and $t_2=6$, we get the following plot for $y(t)$.\\
-\includegraphics[scale=0.5]{LinearizedProblem1.jpg}
-\\As we can see, the controller stabilizes the car at $y=0$.
 \end{document}

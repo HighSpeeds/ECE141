@@ -1,0 +1,300 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2022.4.22)  17 MAY 2022 12:13
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**"/home/lawrence/Desktop/UCLA/Classes/ECE141/HW 5/file.tex"
+(/home/lawrence/Desktop/UCLA/Classes/ECE141/HW 5/file.tex
+LaTeX2e <2020-10-01> patch level 4
+L3 programming layer <2021-01-09> xparse <2020-03-03> (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
+)
+\c@part=\count177
+\c@section=\count178
+\c@subsection=\count179
+\c@subsubsection=\count180
+\c@paragraph=\count181
+\c@subparagraph=\count182
+\c@figure=\count183
+\c@table=\count184
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+) (/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2020/10/07 v1.3j Sub-captions (AR)
+ (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2020/10/26 v3.5g Customizing captions (AR)
+ (/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+\captionmargin=\dimen139
+\captionmargin@=\dimen140
+\captionwidth=\dimen141
+\caption@tempdima=\dimen142
+\caption@indent=\dimen143
+\caption@parindent=\dimen144
+\caption@hangindent=\dimen145
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count185
+\c@continuedfloat=\count186
+)
+\c@subfigure=\count187
+\c@subtable=\count188
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen146
+\Gin@req@width=\dimen147
+) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2020/09/23 v2.17i AMS math features
+\@mathmargin=\skip49
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+ (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks16
+\ex@=\dimen148
+)) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen149
+) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count189
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count190
+\leftroot@=\count191
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count192
+\DOTSCASE@=\count193
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box47
+\strutbox@=\box48
+\big@size=\dimen150
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count194
+\c@MaxMatrixCols=\count195
+\dotsspace@=\muskip16
+\c@parentequation=\count196
+\dspbrk@lvl=\count197
+\tag@help=\toks17
+\row@=\count198
+\column@=\count199
+\maxfields@=\count266
+\andhelp@=\toks18
+\eqnshift@=\dimen151
+\alignsep@=\dimen152
+\tagshift@=\dimen153
+\tagwidth@=\dimen154
+\totwidth@=\dimen155
+\lineht@=\dimen156
+\@envbody=\toks19
+\multlinegap=\skip50
+\multlinetaggap=\skip51
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2923.
+LaTeX Info: Redefining \] on input line 2924.
+) (/usr/share/texlive/texmf-dist/tex/latex/placeins/placeins.sty
+Package: placeins 2005/04/18  v 2.2
+) (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+) (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count267
+\lst@gtempboxa=\box49
+\lst@token=\toks21
+\lst@length=\count268
+\lst@currlwidth=\dimen157
+\lst@column=\count269
+\lst@pos=\count270
+\lst@lostspace=\dimen158
+\lst@width=\dimen159
+\lst@newlines=\count271
+\lst@lineno=\count272
+\lst@maxwidth=\dimen160
+ (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count273
+\lst@skipnumbers=\count274
+\lst@framebox=\box50
+) (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2020-01-29 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count275
+\l__pdf_internal_box=\box51
+) (/home/lawrence/Desktop/UCLA/Classes/ECE141/HW 5/file.aux)
+\openout1 = `file.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: listings package is loaded.
+Package caption Info: End \AtBeginDocument code.
+ (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count276
+\scratchdimen=\dimen161
+\scratchbox=\box52
+\nofMPsegments=\count277
+\nofMParguments=\count278
+\everyMPshowfont=\toks22
+\MPscratchCnt=\count279
+\MPscratchDim=\dimen162
+\MPnumerator=\count280
+\makeMPintoPDFobject=\count281
+\everyMPtoPDFconversion=\toks23
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))
+\c@lstlisting=\count282
+LaTeX Font Info:    Trying to load font information for U+msa on input line 21.
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 21.
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+<Problem1Sketch1.jpg, id=1, 1090.0725pt x 1150.2975pt>
+File: Problem1Sketch1.jpg Graphic file (type jpg)
+<use Problem1Sketch1.jpg>
+Package pdftex.def Info: Problem1Sketch1.jpg  used on input line 29.
+(pdftex.def)             Requested size: 163.50381pt x 172.53717pt.
+<Problem1Matlab1.png, id=2, 1345.025pt x 1049.9225pt>
+File: Problem1Matlab1.png Graphic file (type png)
+<use Problem1Matlab1.png>
+Package pdftex.def Info: Problem1Matlab1.png  used on input line 31.
+(pdftex.def)             Requested size: 201.74504pt x 157.48157pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--33
+
+ []
+
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} </home/lawrence/Desktop/UCLA/Classes/ECE141/HW 5/Problem1Sketch1.jpg>]
+<Problem1Sketch2.jpg, id=17, 863.225pt x 1151.30125pt>
+File: Problem1Sketch2.jpg Graphic file (type jpg)
+<use Problem1Sketch2.jpg>
+Package pdftex.def Info: Problem1Sketch2.jpg  used on input line 46.
+(pdftex.def)             Requested size: 129.47816pt x 172.68773pt.
+<Problem1Matlab2.png, id=18, 1339.0025pt x 1049.9225pt>
+File: Problem1Matlab2.png Graphic file (type png)
+<use Problem1Matlab2.png>
+Package pdftex.def Info: Problem1Matlab2.png  used on input line 48.
+(pdftex.def)             Requested size: 200.8417pt x 157.48157pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--50
+
+ []
+
+[2 </home/lawrence/Desktop/UCLA/Classes/ECE141/HW 5/Problem1Matlab1.png>]
+<Problem2Sketch1.jpg, id=24, 1264.725pt x 1150.2975pt>
+File: Problem2Sketch1.jpg Graphic file (type jpg)
+<use Problem2Sketch1.jpg>
+Package pdftex.def Info: Problem2Sketch1.jpg  used on input line 68.
+(pdftex.def)             Requested size: 189.70056pt x 172.53717pt.
+<Problem2Matlab1.png, id=25, 1322.9425pt x 1035.87pt>
+File: Problem2Matlab1.png Graphic file (type png)
+<use Problem2Matlab1.png>
+Package pdftex.def Info: Problem2Matlab1.png  used on input line 70.
+(pdftex.def)             Requested size: 264.58382pt x 207.17032pt.
+ [3 </home/lawrence/Desktop/UCLA/Classes/ECE141/HW 5/Problem1Sketch2.jpg> </home/lawrence/Desktop/UCLA/Classes/ECE141/HW 5/Problem1Matlab2.png>] [4 </home/lawrence/Desktop/UCLA/Classes/ECE141/HW 5/Problem2Sketch1.jpg>]
+<Problem2Sketch2.jpg, id=33, 925.4575pt x 1233.60875pt>
+File: Problem2Sketch2.jpg Graphic file (type jpg)
+<use Problem2Sketch2.jpg>
+Package pdftex.def Info: Problem2Sketch2.jpg  used on input line 91.
+(pdftex.def)             Requested size: 138.81264pt x 185.03333pt.
+<Problem2Matlab2.png, id=34, 1206.5075pt x 1015.795pt>
+File: Problem2Matlab2.png Graphic file (type png)
+<use Problem2Matlab2.png>
+Package pdftex.def Info: Problem2Matlab2.png  used on input line 93.
+(pdftex.def)             Requested size: 241.29723pt x 203.1554pt.
+ [5 </home/lawrence/Desktop/UCLA/Classes/ECE141/HW 5/Problem2Matlab1.png>] [6 </home/lawrence/Desktop/UCLA/Classes/ECE141/HW 5/Problem2Sketch2.jpg> </home/lawrence/Desktop/UCLA/Classes/ECE141/HW 5/Problem2Matlab2.png>]
+<Problem3Sketch1.jpg, id=43, 1079.03125pt x 919.435pt>
+File: Problem3Sketch1.jpg Graphic file (type jpg)
+<use Problem3Sketch1.jpg>
+Package pdftex.def Info: Problem3Sketch1.jpg  used on input line 113.
+(pdftex.def)             Requested size: 161.8477pt x 137.90929pt.
+<Problem3Matlab1.png, id=44, 1306.8825pt x 1011.78pt>
+File: Problem3Matlab1.png Graphic file (type png)
+<use Problem3Matlab1.png>
+Package pdftex.def Info: Problem3Matlab1.png  used on input line 115.
+(pdftex.def)             Requested size: 261.37187pt x 202.35242pt.
+ [7 </home/lawrence/Desktop/UCLA/Classes/ECE141/HW 5/Problem3Sketch1.jpg>] [8 </home/lawrence/Desktop/UCLA/Classes/ECE141/HW 5/Problem3Matlab1.png>] (/home/lawrence/Desktop/UCLA/Classes/ECE141/HW 5/file.aux) ) 
+Here is how much of TeX's memory you used:
+ 5402 strings out of 481252
+ 81455 string characters out of 5915888
+ 350858 words of memory out of 5000000
+ 22301 multiletter control sequences out of 15000+600000
+ 412055 words of font info for 61 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 80i,6n,88p,349b,262s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on "/home/lawrence/Desktop/UCLA/Classes/ECE141/HW 5/file.pdf" (8 pages, 758074 bytes).
+PDF statistics:
+ 83 PDF objects out of 1000 (max. 8388607)
+ 48 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 51 words of extra memory for PDF output out of 10000 (max. 10000000)
+

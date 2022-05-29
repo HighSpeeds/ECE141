@@ -1,0 +1,110 @@
+\UseRawInputEncoding
+\documentclass[12pt]{article}
+\title{ECE 141 Homework 3}
+\usepackage{subcaption}
+\author{Lawrence Liu}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{placeins}
+\newcommand{\Laplace}{\mathscr{L}}
+\setlength{\parskip}{\baselineskip}%
+\setlength{\parindent}{0pt}%
+\usepackage{xcolor}
+\usepackage{listings}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+\usepackage{amssymb}
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour}}
+\lstset{style=mystyle}
+
+\begin{document}
+\maketitle
+\section*{Problem 3.53}
+\subsection*{(a)}
+Characterist equation
+$$1+KG(s)=0$$
+$$s(s^3+2s+3s+4)+4(s+2)=0$$
+$$s^4+2s^3+3s^2+8s+8=0$$
+Therefore we have
+\begin{center}
+    \begin{tabular}{ c c c c} 
+     $s^4$: & 1 & 3 &  8\\ 
+     $s^3$: & 2 & 8 &  \\ 
+     $s^2$: & -2 & 8&\\
+     $s^1$:  & 24 & &\\
+     $s^0$: & 8 & &
+\end{tabular} 
+\end{center}
+Unstable because change of two sign changes, equal two roots, so Unstable
+\subsection*{(b)}
+$$1+KG(s)=0$$
+$$s^2(s+1)+2(s+4)=0$$
+$$s^3+s^2+2s+8=0$$
+Therefore we have
+\begin{center}
+    \begin{tabular}{ c c c c} 
+     $s^3$: & 1 & 2 &\\ 
+     $s^2$: & 1 & 8&  \\ 
+     $s^1$: & -6 & &\\
+     $s^0$:  & 8 & &
+\end{tabular} 
+\end{center}
+Unstable because change of two sign changes, equal two roots, so Unstable
+
+\section*{Problem 3.54}
+\subsection*{(a)}
+\begin{center}
+    \begin{tabular}{ c c c c} 
+     $s^4$: & 1 & 32 & 100\\ 
+     $s^3$: & 8 & 80&  \\ 
+     $s^2$: & 22 & 100&\\
+     $s^1$:  & 43.6 & &\\
+     $s^0$: & 100 & &
+\end{tabular} 
+\end{center}
+No sign change, so no roots
+\subsection*{(b)}
+\begin{center}
+    \begin{tabular}{ c c c c} 
+     $s^4$: & 1 & 7 & 8\\ 
+     $s^3$: & 2 & -2&  \\ 
+     $s^2$: & 8 & 8&\\
+     $s^1$:  & -4 & &\\
+     $s^0$: & 8 & &
+\end{tabular} 
+\end{center}
+Two sign changes, so two roots
+\section*{Problem 3.57}
+We have that the transfer function is 
+$$\frac{KK_0\frac{s+z}{(s+p)(s^2-a^2)}}{1+KK_0\frac{s+z}{(s+p)(s^2-a^2)}}=
+\frac{KK_0(s+z)}{(s+p)(s^2-a^2)+KK_0(s+z)}$$
+Therefore we have that the characterist polynomial is:
+ $$s^2+ps^2+(KK_0-a^2)s+KK_0z-pa^2=0$$
+Therefore we have the following routhe array
+\begin{center}
+    \begin{tabular}{ c c c} 
+     $s^4$: & 1 & $KK_0-a^2$\\ 
+     $s^3$: & p & $KK_0z-pa^2$ \\
+     $s^1$: & $KK_0\frac{p-z}{p}$&\\
+     $s^0$: & $KK_0z-pa^2$
+    \end{tabular}
+    \end{center}
+Therefore we have that 
+$$p>0$$
+$$KK_0\frac{p-z}{p}>0$$
+$$KK_0z-pa^2>0$$
+therefore we have
+$$KK_0p>KK_0z$$
+$$KK_0>pa^2>0$$
+therefore we have
+$$p>z$$
+$$KK_0>\frac{p}{z}a^2>\frac{z}{z}a^2>a^2$$
+Therefore our conditions for stablity are 
+$$p>0$$
+$$p>z$$
+$$KK_0>a^2$$
+
+
+    
+
+\end{document}

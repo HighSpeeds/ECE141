@@ -32,12 +32,12 @@ $$\beta=\arctan(\frac{l_r}{l_r+l_f}\tan(u))$$
 Linearizing around $\psi=0$ $\beta=0$, we have
 $$\frac{d}{dt}y=v(\psi+\beta)$$
 $$\frac{d}{dt}\psi=\frac{v}{l_R}\beta$$
-$$\beta=\frac{l_r}{l_r+l_f}u$$
 therefore taking the laplace transform we have
 $$sY=v(\psi+\beta)$$
 $$s\psi=\frac{v}{l_r}\beta$$
-$$\beta=\frac{l_r}{l_r+l_f}U$$
 Therefore we get
-$$sY=v(\frac{v+l_r}{l_r+l_f}U)$$
-$$\frac{Y}{U}=\frac{v(l_r+v)}{s(l_r+l_f)}$$
+$$sY=v(\frac{v}{l_r s}+1)\beta$$
+Therefore the transfer function is
+$$\frac{Y(s)}{\beta}=\frac{v(v+l_r s)}{l_r s^2}$$
+So now with a controller $C(s)$ we have that the transfer 
 \end{document}

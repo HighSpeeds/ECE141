@@ -162,5 +162,53 @@ which outputs the following pole zero plot\\
 \section*{Problem 5}
 The blockdiagram for the nonlinear system looks like the following\\
 \includegraphics[scale=0.4]{Problem5BlockDiagram.PNG}\\
+Using the following code we plot out the initial values of $y$ and $\psi$ result in acceptable behaviour, when $v$ initialy is $10m/s$, $15.6464m/s$, and $20m/s$
+\begin{verbatim}
+    v_target=15.6464;
+y_target=0;
+l_r=1.7;
 
+v_sweep=[0 15.6464 20];
+log_y_sweep=-3:0.1:-1;
+psi_sweep=0:0.25:2*pi;
+
+
+for i=1:length(v_sweep)
+v_initial=v_sweep(i)
+f = figure;
+valid = zeros(length(psi_sweep),length(log_y_sweep));
+for j=1:length(psi_sweep)
+    psi_initial=psi_sweep(j);
+    for k=1:length(log_y_sweep)
+        y_initial=10^(log_y_sweep(k));
+
+        a=sim("Problem3.slx");
+
+        data=a.yout.getElement("y");
+    
+        if max(abs(data.Values.Data))<0.6
+            valid(j,k)=1;
+        end
+    end
+
+end
+imagesc(log_y_sweep,psi_sweep,valid);
+colorbar
+ylabel("\psi initial values")
+xlabel("log(abs(y)) initial values")
+title(['v= ',num2str(v_initial),' m/s'])
+end
+\end{verbatim}
+
+
+which results in the following plots, for $v=20m/s$\\
+\includegraphics[scale=0.4]{Problem5v20.jpg}\\
+for $v=15.6464m/s$\\
+\includegraphics[scale=0.4]{Problem5v15.jpg}\\
+and for $v=0m/s$\\
+\includegraphics[scale=0.4]{Problem5v0.jpg}\\
+As we can see changing the initial v does not seem to matter at all\\
+
+
+\section*{Problem 6}
 \end{document}

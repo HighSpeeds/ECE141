@@ -32,5 +32,22 @@ bode(sys)
 Which outputs the following plot\\
 \includegraphics[scale=0.2]{Problem1Fig3.png}\\
 \section*{Problem 6.7}
+There are 3 break points, one first order one at $\omega=2$ in the numerator, one second order one at $\omega=5$ in the denominator and a first order one at $
+\omega=10$ in the denominator. Furthermore since there also exists a $s^2$ in the denominator, we start of initially with a slope of $-2$. Therefore, we can
+the sketch of the bode plot looks like.\\
+\includegraphics[scale=0.4]{Problem2Fig1.jpg}\\
+We can confirm this with the following matlab code
+\begin{verbatim}
+u = [1 10];
+v = [1 0 0];
+y=[1 6 25];
+
+conv(conv(u,v),y)
+
+sys = tf([1 2], conv(conv(u,v),y));
+bode(sys)
+\end{verbatim}
+Which outputs the following plot\\
+\includegraphics[scale=0.2]{Problem2Fig2.png}\\
 
 \end{document}

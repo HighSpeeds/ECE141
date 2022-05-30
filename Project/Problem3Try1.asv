@@ -1,0 +1,28 @@
+psi_sweep=0:0.01:2*pi;
+y_sweep=10.^(-2:0.001:-1);
+t_final=40;
+valid = zeros(length(psi_sweep),length(y_sweep));
+for i=1:length(psi_sweep)
+    for j=1:length(y_sweep)
+        psi_initial=psi_sweep(i);
+        y_initial=y_sweep(j);
+
+        a=sim("Problem3.slx");
+
+        data=a.yout.getElement("y");
+        
+        if max(data.Values.Data)<(3-1.8)/2
+            va
+        end
+    end
+
+end
+
+
+a=sim("Problem3.slx")
+
+data=a.yout.getElement("y");
+
+data.Values.Time;
+
+max(data.Values.Data)

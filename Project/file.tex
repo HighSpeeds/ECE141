@@ -88,11 +88,44 @@ As we can see, the poles all have their real parts less than 0, which means the 
 \section*{Problem 3}
 The blockdiagram for the nonlinear system looks like the following\\
 \includegraphics[scale=0.4]{Problem3BlockDiagram.PNG}\\
-We can modify the inital conditions by modifying the inital conditions for the itegrator blocks. We define good behaviour such that the absolute value of $y$ is less than
-$\frac{3.0-1.8}{2}=0.6$, ie the car cannot move out of its own line
+We can modify the inital conditions by modifying the inital conditions for the itegrator blocks. We define acceptable behaviour such that the absolute value of $y$ is less than
+$\frac{3.0-1.8}{2}=0.6$, ie the car cannot move out of its own lane
 \\\\
-With the initial condition $y(0^+)=0.1$, and $\psi(0^+)=0$ the controller display's unacceptabl behavior, see the plot below.\\
-\includegraphics[scale=0.5]{Problem3y0.1psi0.jpg}\\
-The car will initially move further away from $y=0$, reaching a max of around $y=3.5$ which is almost one lane away from the lane it needs to keep track off.
+Using the following matlab code we can plot out where the initial values of $y$ and $\psi$ result in acceptable behaviour
+\begin{verbatim}
+psi_sweep=0:0.25:2*pi;
+y_sweep=-3:0.1:-1;
+t_final=40;
+valid = zeros(length(psi_sweep),length(y_sweep));
+for i=1:length(psi_sweep)
+    psi_initial=psi_sweep(i);
+    for j=1:length(y_sweep)
+        y_initial=10^(y_sweep(j));
+        a=sim("Problem3.slx");
 
+        data=a.yout.getElement("y");
+        
+        if max(abs(data.Values.Data))<0.6
+            valid(i,j)=1;
+        end
+    end
+
+end
+
+imagesc(y_sweep,psi_sweep,valid)
+colorbar
+ylabel("\psi initial values")
+xlabel("log(abs(y)) initial values")
+\end{verbatim}
+which outputs the following plot\\
+\includegraphics[scale=0.4]{Problem3Fig1.png}\\
+Where the yellow block is the acceptable region, and the blue blocks are the unacceptable regions.\\
+To check this, let us plot out the behaviour of the system for the initial conditions $y(0)=10^{-1.8}=0.0158$ and $\psi(0)=5$\\
+\includegraphics[scale=0.4]{Problem3Fig2.png}\\
+As we can see, for these initial conditions, the maximum deviation is around $-0.1$ so the controller has adequate performance. Let us also plot out the car's y postion when
+$y(0)=10^{-1.2}=0.0631$ and $\psi(0)=\frac{7\pi}{4}$,
+\\\includegraphics[scale=0.4]{Problem3Fig3.png}\\
+As we can see for these intial conditions, the maximum deviation is around $3.5$ so the controller has inadequate performance for these inital conditions. Both of these discovers agree with the plot of initial conditions
+that result in adequate performance that we generated
+\section*{Problem 4}
 \end{document}

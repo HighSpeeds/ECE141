@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.1.30)  29 MAY 2022 14:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.1.30)  29 MAY 2022 21:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -242,39 +242,45 @@ File: Problem3BlockDiagram.PNG Graphic file (type png)
 <use Problem3BlockDiagram.PNG>
 Package pdftex.def Info: Problem3BlockDiagram.PNG  used on input line 90.
 (pdftex.def)             Requested size: 390.85332pt x 118.84189pt.
-<Problem3y0.1psi0.jpg, id=24, 843.15pt x 596.2275pt>
-File: Problem3y0.1psi0.jpg Graphic file (type jpg)
-<use Problem3y0.1psi0.jpg>
-Package pdftex.def Info: Problem3y0.1psi0.jpg  used on input line 95.
-(pdftex.def)             Requested size: 421.57396pt x 298.11302pt.
 
-Overfull \hbox (0.85332pt too wide) in paragraph at lines 89--97
+Overfull \hbox (0.85332pt too wide) in paragraph at lines 89--95
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 89--97
+Underfull \hbox (badness 10000) in paragraph at lines 89--95
 
  []
 
-
-Overfull \hbox (31.57396pt too wide) in paragraph at lines 89--97
-[] 
- []
-
-[4 <./Problem2Fig1.png> <./Problem3BlockDiagram.PNG>] [5 <./Problem3y0.1psi0.jpg>] (file.aux) ) 
+[4 <./Problem2Fig1.png> <./Problem3BlockDiagram.PNG>]
+<Problem3Fig1.png, id=29, 954.56625pt x 474.27188pt>
+File: Problem3Fig1.png Graphic file (type png)
+<use Problem3Fig1.png>
+Package pdftex.def Info: Problem3Fig1.png  used on input line 121.
+(pdftex.def)             Requested size: 381.81973pt x 189.70538pt.
+<Problem3Fig2.png, id=30, 632.3625pt x 447.17062pt>
+File: Problem3Fig2.png Graphic file (type png)
+<use Problem3Fig2.png>
+Package pdftex.def Info: Problem3Fig2.png  used on input line 124.
+(pdftex.def)             Requested size: 252.94052pt x 178.86507pt.
+<Problem3Fig3.png, id=31, 632.3625pt x 447.17062pt>
+File: Problem3Fig3.png Graphic file (type png)
+<use Problem3Fig3.png>
+Package pdftex.def Info: Problem3Fig3.png  used on input line 127.
+(pdftex.def)             Requested size: 252.94052pt x 178.86507pt.
+ [5] [6 <./Problem3Fig1.png (PNG copy)> <./Problem3Fig2.png (PNG copy)>] [7 <./Problem3Fig3.png (PNG copy)>] (file.aux) ) 
 Here is how much of TeX's memory you used:
- 5745 strings out of 478659
- 91002 string characters out of 2844498
+ 5758 strings out of 478659
+ 91256 string characters out of 2844498
  383829 words of memory out of 3000000
- 23815 multiletter control sequences out of 15000+600000
+ 23827 multiletter control sequences out of 15000+600000
  411748 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  67i,6n,77p,353b,268s stack positions out of 5000i,500n,10000p,200000b,80000s
 <C:/Users/Lawrence/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Lawrence/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Lawrence/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/Lawrence/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Lawrence/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Lawrence/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Lawrence/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/Lawrence/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Lawrence/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Lawrence/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Lawrence/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on file.pdf (5 pages, 275844 bytes).
+Output written on file.pdf (7 pages, 292227 bytes).
 PDF statistics:
- 79 PDF objects out of 1000 (max. 8388607)
+ 89 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.1.30)  30 MAY 2022 01:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.1.30)  30 MAY 2022 02:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -285,24 +285,40 @@ File: Problem5BlockDiagram.PNG Graphic file (type png)
 <use Problem5BlockDiagram.PNG>
 Package pdftex.def Info: Problem5BlockDiagram.PNG  used on input line 164.
 (pdftex.def)             Requested size: 321.39507pt x 121.65233pt.
+ [9 <./Problem4Fig1.jpg> <./Problem5BlockDiagram.PNG>]
+<Problem5v20.jpg, id=52, 843.15pt x 632.3625pt>
+File: Problem5v20.jpg Graphic file (type jpg)
+<use Problem5v20.jpg>
+Package pdftex.def Info: Problem5v20.jpg  used on input line 205.
+(pdftex.def)             Requested size: 337.25401pt x 252.94052pt.
+<Problem5v15.jpg, id=53, 843.15pt x 632.3625pt>
+File: Problem5v15.jpg Graphic file (type jpg)
+<use Problem5v15.jpg>
+Package pdftex.def Info: Problem5v15.jpg  used on input line 207.
+(pdftex.def)             Requested size: 337.25401pt x 252.94052pt.
+<Problem5v0.jpg, id=54, 843.15pt x 632.3625pt>
+File: Problem5v0.jpg Graphic file (type jpg)
+<use Problem5v0.jpg>
+Package pdftex.def Info: Problem5v0.jpg  used on input line 209.
+(pdftex.def)             Requested size: 337.25401pt x 252.94052pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 163--165
+Underfull \hbox (badness 10000) in paragraph at lines 204--211
 
  []
 
-[9 <./Problem4Fig1.jpg> <./Problem5BlockDiagram.PNG>] (file.aux) ) 
+[10] [11 <./Problem5v20.jpg> <./Problem5v15.jpg>] [12 <./Problem5v0.jpg>] (file.aux) ) 
 Here is how much of TeX's memory you used:
- 5773 strings out of 478659
- 91602 string characters out of 2844498
+ 5794 strings out of 478659
+ 92003 string characters out of 2844498
  383829 words of memory out of 3000000
- 23839 multiletter control sequences out of 15000+600000
+ 23857 multiletter control sequences out of 15000+600000
  411748 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  67i,6n,77p,353b,269s stack positions out of 5000i,500n,10000p,200000b,80000s
 <C:/Users/Lawrence/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Lawrence/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Lawrence/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/Lawrence/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Lawrence/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Lawrence/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Lawrence/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/Lawrence/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Lawrence/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Lawrence/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Lawrence/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on file.pdf (9 pages, 441213 bytes).
+Output written on file.pdf (12 pages, 559941 bytes).
 PDF statistics:
- 98 PDF objects out of 1000 (max. 8388607)
+ 110 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 36 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 51 words of extra memory for PDF output out of 10000 (max. 10000000)
 

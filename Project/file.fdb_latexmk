@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1653897736 "c:/Users/Lawrence/Desktop/UCLA/Classes/ECE141/Project/file.tex" "file.pdf" "file" 1653897738
+["pdflatex"] 1653904403 "c:/Users/Lawrence/Desktop/UCLA/Classes/ECE141/Project/file.tex" "file.pdf" "file" 1653904405
   "C:/Users/Lawrence/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1653801395 81239 da89e99f8950bd4b937749f4c74af311 ""
   "C:/Users/Lawrence/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1643615794 9771389 75e56a91aefd99356202ce3fe2a79783 ""
   "C:/Users/Lawrence/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233955448 1004 54797486969f23fa377b128694d548df ""
@@ -69,9 +69,12 @@
   "Problem3Fig3.png" 1653884309 16100 9cec082ad3e384bbb8ec2b9f4a9751f3 ""
   "Problem4Fig1.jpg" 1653894477 88343 94c7b0069d87d008b4b4b0ee849bea6a ""
   "Problem5BlockDiagram.PNG" 1653897618 63375 04313ba4979cfff43279f8fe2a08f878 ""
-  "c:/Users/Lawrence/Desktop/UCLA/Classes/ECE141/Project/file.tex" 1653897736 6259 ae2864095fbf7a4d5f3fb01bcb2aa741 ""
-  "file.aux" 1653897738 32 1b174032087fb90900fa6203d3bb0a7e "pdflatex"
-  "file.tex" 1653897736 6259 ae2864095fbf7a4d5f3fb01bcb2aa741 ""
+  "Problem5v0.jpg" 1653904344 37926 72ff46bbab38e35bfc4537833d055900 ""
+  "Problem5v15.jpg" 1653904039 38933 f94f3fb8db959e3a01888f0e0d678a7d ""
+  "Problem5v20.jpg" 1653903991 38192 5c301712ce2996014148b7a5074398aa ""
+  "c:/Users/Lawrence/Desktop/UCLA/Classes/ECE141/Project/file.tex" 1653904402 7510 1730c094d3dec58ff929443cb2470ae1 ""
+  "file.aux" 1653904404 33 e6d77a6cc1977d88a849501f83258f9d "pdflatex"
+  "file.tex" 1653904402 7510 1730c094d3dec58ff929443cb2470ae1 ""
   (generated)
   "file.aux"
   "file.log"

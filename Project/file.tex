@@ -128,4 +128,39 @@ $y(0)=10^{-1.2}=0.0631$ and $\psi(0)=\frac{7\pi}{4}$,
 As we can see for these intial conditions, the maximum deviation is around $3.5$ so the controller has inadequate performance for these inital conditions. Both of these discovers agree with the plot of initial conditions
 that result in adequate performance that we generated
 \section*{Problem 4}
+We have
+$$\frac{d}{dt}v=a$$
+$$sv=a$$
+$$\frac{v}{a}=\frac{1}{s}$$
+therefore with a pid controller the transfer function from the input target velocity to the output velocity is 
+$$\frac{(k_p+k_ds+k_i\frac{1}{s})\frac{1}{s}}{1+(k_p+k_ds+k_i\frac{1}{s})\frac{1}{s}}$$
+Therefore the characteristic polyomial is 
+$$s^2+(k_ps+k_ds^2+k_i)=0$$, therefore picking $k_p=k_i=k_d=1$ we get the following routh array from this matlab code
+\begin{verbatim}
+syms EPS;
+k_d=1;
+k_p=1;
+k_i=1;
+ra=routh([1+k_d k_p k_i],EPS)
+\end{verbatim}
+$$\begin{matrix}
+    2 & 1\\
+    1 & 0\\
+    1 & 0\\
+\end{matrix}$$
+Therefore this controller stabilizes the system, to double check let us use the following matlab code to plot the poles and zeros of the transfer function
+\begin{verbatim}
+k_d=1;
+k_p=1;
+k_i=1;
+sys = tf([k_d k_p k_i], [1+k_d k_p k_i]);
+h = pzplot(sys);
+grid on
+\end{verbatim}
+which outputs the following pole zero plot\\
+\includegraphics[scale=0.4]{Problem4Fig1.jpg}\\
+\section*{Problem 5}
+The blockdiagram for the nonlinear system looks like the following\\
+\includegraphics[scale=0.4]{Problem5BlockDiagram.PNG}\\
+
 \end{document}

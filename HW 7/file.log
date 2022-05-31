@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2022.4.22)  30 MAY 2022 13:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2022.4.22)  30 MAY 2022 18:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -254,20 +254,53 @@ Underfull \hbox (badness 10000) in paragraph at lines 50--52
 
  []
 
-[3 </home/lawrence/Desktop/UCLA/Classes/ECE141/HW 7/Problem2Fig1.jpg>] [4 </home/lawrence/Desktop/UCLA/Classes/ECE141/HW 7/Problem2Fig2.png>] (/home/lawrence/Desktop/UCLA/Classes/ECE141/HW 7/file.aux) ) 
+[3 </home/lawrence/Desktop/UCLA/Classes/ECE141/HW 7/Problem2Fig1.jpg>]
+<Problem3Fig1.png, id=27, 1678.27pt x 1347.0325pt>
+File: Problem3Fig1.png Graphic file (type png)
+<use Problem3Fig1.png>
+Package pdftex.def Info: Problem3Fig1.png  used on input line 64.
+(pdftex.def)             Requested size: 335.64806pt x 269.40173pt.
+ [4 </home/lawrence/Desktop/UCLA/Classes/ECE141/HW 7/Problem2Fig2.png>]
+<Problem3Fig2.jpg, id=32, 903.375pt x 599.23875pt>
+File: Problem3Fig2.jpg Graphic file (type jpg)
+<use Problem3Fig2.jpg>
+Package pdftex.def Info: Problem3Fig2.jpg  used on input line 73.
+(pdftex.def)             Requested size: 361.3436pt x 239.69125pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 70--74
+
+ []
+
+[5 </home/lawrence/Desktop/UCLA/Classes/ECE141/HW 7/Problem3Fig1.png>]
+<Problem4Fig1.png, id=38, 1591.9475pt x 1272.755pt>
+File: Problem4Fig1.png Graphic file (type png)
+<use Problem4Fig1.png>
+Package pdftex.def Info: Problem4Fig1.png  used on input line 87.
+(pdftex.def)             Requested size: 318.38387pt x 254.5465pt.
+<Problem4Fig2.jpg, id=39, 1449.415pt x 1150.2975pt>
+File: Problem4Fig2.jpg Graphic file (type jpg)
+<use Problem4Fig2.jpg>
+Package pdftex.def Info: Problem4Fig2.jpg  used on input line 92.
+(pdftex.def)             Requested size: 289.87787pt x 230.05542pt.
+
+Overfull \hbox (8.15248pt too wide) in paragraph at lines 86--93
+[] \OT1/cmr/m/n/12 There is a spike
+ []
+
+[6 </home/lawrence/Desktop/UCLA/Classes/ECE141/HW 7/Problem3Fig2.jpg>] [7 </home/lawrence/Desktop/UCLA/Classes/ECE141/HW 7/Problem4Fig1.png>] [8 </home/lawrence/Desktop/UCLA/Classes/ECE141/HW 7/Problem4Fig2.jpg>] (/home/lawrence/Desktop/UCLA/Classes/ECE141/HW 7/file.aux) ) 
 Here is how much of TeX's memory you used:
- 5526 strings out of 481252
- 82198 string characters out of 5915888
- 350267 words of memory out of 5000000
- 22430 multiletter control sequences out of 15000+600000
+ 5550 strings out of 481252
+ 82658 string characters out of 5915888
+ 351267 words of memory out of 5000000
+ 22450 multiletter control sequences out of 15000+600000
  411748 words of font info for 60 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  80i,6n,88p,349b,262s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on "/home/lawrence/Desktop/UCLA/Classes/ECE141/HW 7/file.pdf" (4 pages, 351400 bytes).
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on "/home/lawrence/Desktop/UCLA/Classes/ECE141/HW 7/file.pdf" (8 pages, 686583 bytes).
 PDF statistics:
- 57 PDF objects out of 1000 (max. 8388607)
- 35 compressed objects within 1 object stream
+ 81 PDF objects out of 1000 (max. 8388607)
+ 48 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
 

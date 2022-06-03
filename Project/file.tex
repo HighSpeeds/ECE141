@@ -68,14 +68,14 @@ h = pzplot(sys);
 grid on
 \end{verbatim}
 \includegraphics[scale=0.3]{Problem2Fig1.png}
-As we can see, the system is critically damped since the poles are at the same place.
+As we can see, the system is critically damped since the poles are at the same place, furthermore the system is stable since the poles are all
+less than 0.
 \section*{Problem 3}
 The blockdiagram for the nonlinear system looks like the following\\
 \includegraphics[scale=0.4]{Problem3BlockDiagram.PNG}\\
 We can modify the initial conditions by modifying the inital conditions for the integrator blocks. We define acceptable behavior, 
 as the car not oscillating, so the y value cannot exceed the initial y value, and cannot be less than 0 if we start the car with a positive y,
-and vice versa for a negative initial y
-$0.1$, ie the car, if oscillate, cannot have a amplitude greater than 0.1 or 10cm which would be barely noticeable.
+and vice versa for a negative initial y.
 \\\\
 Using the following matlab code we can plot out where the initial values of $y$ and $\psi$ result in acceptable behavior
 \begin{verbatim}
@@ -131,37 +131,19 @@ then we have
 $$s^2+k_ps+k_i=0$$
 in order for this system to be critically damped, we want,
 $$\sqrt{k_i}=\frac{k_p}{2}$$
-In order to pick the $k_i$ and $k_p$, we set the maximum acceleration of the car to be around $0.5g$ or around $4.9m/s^2$ which will result to a 0-60mph
-of around $5.5s$.
-
-
-picking $k_p=1$ and $k_i=\frac{1}{4}$, 
-
-
-therefore picking $k_p=k_i=k_d=1$ we get the following routh array from this matlab code
+We pick $k_p=1$ and $k_i=\frac{1}{4}$. To confirm we plot the poles and zeros of the system
 \begin{verbatim}
-syms EPS;
-k_d=1;
 k_p=1;
-k_i=1;
-ra=routh([1+k_d k_p k_i],EPS)
-\end{verbatim}
-$$\begin{matrix}
-    2 & 1\\
-    1 & 0\\
-    1 & 0\\
-\end{matrix}$$
-Therefore this controller stabilizes the system, to double check let us use the following matlab code to plot the poles and zeros of the transfer function
-\begin{verbatim}
-k_d=1;
-k_p=1;
-k_i=1;
-sys = tf([k_d k_p k_i], [1+k_d k_p k_i]);
+k_i=k_p^2/4;
+
+sys = tf([k_p k_i],[1 k_p k_i]);
 h = pzplot(sys);
 grid on
 \end{verbatim}
 which outputs the following pole zero plot\\
 \includegraphics[scale=0.4]{Problem4Fig1.jpg}\\
+As we can see, the system is critically damped since the poles are at the same place, furthermore the system is stable since the poles are all
+less than 0.
 \section*{Problem 5}
 The blockdiagram for the nonlinear system looks like the following\\
 \includegraphics[scale=0.4]{Problem5BlockDiagram.PNG}\\

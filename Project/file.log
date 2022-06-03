@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.1.30)  3 JUN 2022 00:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.1.30)  3 JUN 2022 01:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -223,7 +223,7 @@ File: Problem2Fig1.png Graphic file (type png)
 Package pdftex.def Info: Problem2Fig1.png  used on input line 70.
 (pdftex.def)             Requested size: 385.49115pt x 191.37244pt.
 
-Overfull \hbox (11.54515pt too wide) in paragraph at lines 70--72
+Overfull \hbox (11.54515pt too wide) in paragraph at lines 70--73
 [] \OT1/cmr/m/n/12 As
  []
 
@@ -231,15 +231,15 @@ Overfull \hbox (11.54515pt too wide) in paragraph at lines 70--72
 <Problem3BlockDiagram.PNG, id=24, 1038.88126pt x 366.87062pt>
 File: Problem3BlockDiagram.PNG Graphic file (type png)
 <use Problem3BlockDiagram.PNG>
-Package pdftex.def Info: Problem3BlockDiagram.PNG  used on input line 74.
+Package pdftex.def Info: Problem3BlockDiagram.PNG  used on input line 75.
 (pdftex.def)             Requested size: 415.54514pt x 146.74564pt.
 
-Overfull \hbox (25.54514pt too wide) in paragraph at lines 73--81
+Overfull \hbox (25.54514pt too wide) in paragraph at lines 74--81
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 73--81
+Underfull \hbox (badness 10000) in paragraph at lines 74--81
 
  []
 
@@ -272,41 +272,35 @@ Underfull \hbox (badness 10000) in paragraph at lines 110--120
 <Problem4Fig1.jpg, id=43, 843.15pt x 632.3625pt>
 File: Problem4Fig1.jpg Graphic file (type jpg)
 <use Problem4Fig1.jpg>
-Package pdftex.def Info: Problem4Fig1.jpg  used on input line 164.
+Package pdftex.def Info: Problem4Fig1.jpg  used on input line 144.
 (pdftex.def)             Requested size: 337.25401pt x 252.94052pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 163--165
-
- []
-
-[8]
-<Problem5BlockDiagram.PNG, id=47, 803.50188pt x 304.13625pt>
+<Problem5BlockDiagram.PNG, id=44, 961.5925pt x 334.24875pt>
 File: Problem5BlockDiagram.PNG Graphic file (type png)
 <use Problem5BlockDiagram.PNG>
-Package pdftex.def Info: Problem5BlockDiagram.PNG  used on input line 167.
-(pdftex.def)             Requested size: 321.39507pt x 121.65233pt.
- [9 <./Problem4Fig1.jpg> <./Problem5BlockDiagram.PNG>]
+Package pdftex.def Info: Problem5BlockDiagram.PNG  used on input line 149.
+(pdftex.def)             Requested size: 384.63019pt x 133.69713pt.
+ [8 <./Problem4Fig1.jpg>] [9 <./Problem5BlockDiagram.PNG>]
 <Problem5v20.jpg, id=52, 843.15pt x 632.3625pt>
 File: Problem5v20.jpg Graphic file (type jpg)
 <use Problem5v20.jpg>
-Package pdftex.def Info: Problem5v20.jpg  used on input line 208.
+Package pdftex.def Info: Problem5v20.jpg  used on input line 190.
 (pdftex.def)             Requested size: 337.25401pt x 252.94052pt.
 <Problem5v15.jpg, id=53, 843.15pt x 632.3625pt>
 File: Problem5v15.jpg Graphic file (type jpg)
 <use Problem5v15.jpg>
-Package pdftex.def Info: Problem5v15.jpg  used on input line 210.
+Package pdftex.def Info: Problem5v15.jpg  used on input line 192.
 (pdftex.def)             Requested size: 337.25401pt x 252.94052pt.
 <Problem5v0.jpg, id=54, 843.15pt x 632.3625pt>
 File: Problem5v0.jpg Graphic file (type jpg)
 <use Problem5v0.jpg>
-Package pdftex.def Info: Problem5v0.jpg  used on input line 212.
+Package pdftex.def Info: Problem5v0.jpg  used on input line 194.
 (pdftex.def)             Requested size: 337.25401pt x 252.94052pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 207--214
+Underfull \hbox (badness 10000) in paragraph at lines 189--196
 
  []
 
-[10] [11 <./Problem5v20.jpg> <./Problem5v15.jpg>] [12 <./Problem5v0.jpg>] (file.aux) ) 
+[10 <./Problem5v20.jpg>] [11 <./Problem5v15.jpg> <./Problem5v0.jpg>] [12] (file.aux) ) 
 Here is how much of TeX's memory you used:
  5794 strings out of 478659
  92003 string characters out of 2844498
@@ -316,7 +310,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  67i,6n,77p,353b,269s stack positions out of 5000i,500n,10000p,200000b,80000s
 <C:/Users/Lawrence/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Lawrence/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Lawrence/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Lawrence/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/Lawrence/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Lawrence/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Lawrence/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Lawrence/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/Lawrence/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Lawrence/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Lawrence/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Lawrence/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on file.pdf (12 pages, 643158 bytes).
+Output written on file.pdf (12 pages, 640143 bytes).
 PDF statistics:
  114 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

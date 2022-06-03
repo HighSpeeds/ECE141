@@ -42,88 +42,72 @@ $$\frac{Y(s)}{\beta}=\frac{v(v+l_r s)}{l_r s^2}$$
 So now with a controller $D_c(s)$ and unity feedback we have that the transfer function is
 $$\frac{Y}{R}=\frac{D_c(s)\frac{v(v+l_r s)}{l_r s^2}}{1+D_c(s)\frac{v(v+l_r s)}{l_r s^2}}$$
 
-Letting the controller be a PID controller, we have that the characteristic polynomial is
-$$l_r s^3+(k_ps+k_ds^2+k_i)(v^2+l_r v s)=0$$
-$$l_r(1+k_d v)s^3+(k_dv^2+l_r v k_p)s^2+(k_pv^2+l_r v k_i)s+v^2k_i=0$$
-$$s^3+\frac{(k_dv^2+l_r v k_p)}{l_r(1+k_d v)}s^2+\frac{(k_pv^2+l_r v k_i)}{l_r(1+k_d v)}s+\frac{v^2k_i}{l_r(1+k_d v)}=0$$
-picking $k_p=1$, $k_i=1$, $k_d=1$ we get the following polynomial
-$$s^3+9.5908s^2+9.5908s+8.6509=0$$
-Routh array of this polynomial can be computed using the following code in matlab
+If the controller is a simple portional controller then the transfer function becomes
+$$\frac{Y}{R}=\frac{k_pv(v+l_r s)}{l_r s^2+k_pv(v+l_r s)}$$
+Therefore the transfer function for the error is 
+$$\frac{E}{R}=1-\frac{k_pv(v+l_r s)}{l_r s^2+k_pv(v+l_r s)}$$
+$$\frac{E}{R}=\frac{l_r s^2}{l_r s^2+k_pv(v+l_r s)}$$
+
+Therefore for unit step input, which is what we will have, we have that the steady state error is 
+$$\lim_{t\to\infty}e(\infty)=\lim_{s\to0}\frac{l_r s^2}{l_r s^2+k_pv(v+l_r s)}$$
+$$\lim_{t\to\infty}e(\infty)=0$$
+Therefore we must have characteristic polynomial
+$$l_r s^2+k_pv(v+l_r s)=0$$
+$$s^2+k_pvs+\frac{k_pv^2}{l_r}=0$$
+In order for this system to be critically damped we must have that
+$$2v\sqrt{\frac{k_p}{l_r}}=k_pv$$
+therefore we have that $\sqrt{k_p}=\frac{2}{\sqrt{l_r}}$, and thus $k_p=\frac{4}{l_r}$. To confirm that this is indeed stable, and that the system is critically damped, we plot out
+the poles and zeros of the system. Using the following matlab code, we get the pole zero plots
 \begin{verbatim}
-sympref('FloatingPointOutput',true)
-syms  EPS
-k_p=1;
-k_d=1;
-k_i=1; 
 v=15.6464;
 l_r=1.7;
-ra=routh([1  (k_d*v^2+l_r*v*k_p)/(l_r*(1+k_d*v)) (k_p*v^2+l_r*v*k_i)/(l_r*(1+k_d*v)) v^2*k_i/(l_r*(1+k_d*v))],EPS);
-simplify(ra)
-\end{verbatim}
-which outputs the following routh array
-$$\begin{matrix}
-    1 & 9.5908\\
-    9.5908& 8.6509\\
-8.6888&      0\\
-8.6509&      0\\
-\end{matrix}$$
-Therefore the controller makes the system stable, we can confirm this by looking at the poles
-plotting out the pole zero plot with the following code 
-\begin{verbatim}
-sympref('FloatingPointOutput',true)
-syms  EPS
-k_p=1;
-k_d=1;
-k_i=1; 
-v=15.6464;
-l_r=1.7;
-p=[(l_r*(1+k_d*v))  (k_d*v^2+l_r*v*k_p) (k_p*v^2+l_r*v*k_i) v^2*k_i]
-sys = tf([(l_r*(k_d*v))  (k_d*v^2+l_r*v*k_p) (k_p*v^2+l_r*v*k_i) v^2*k_i],p);
+k_p=4/l_r;
+
+sys = tf([k_p*v*l_r k_p*v^2],[l_r  k_p*v*l_r k_p*v^2]);
 h = pzplot(sys);
 grid on
 \end{verbatim}
-which outputs the following pole zero plot.\\
-\includegraphics[scale=0.4]{Problem2Fig1.png}\\
-As we can see, the poles all have their real parts less than 0, which means the system is stable.
+\includegraphics[scale=0.3]{Problem2Fig1.png}
+As we can see, the system is critically damped since the poles are at the same place.
 \section*{Problem 3}
 The blockdiagram for the nonlinear system looks like the following\\
 \includegraphics[scale=0.4]{Problem3BlockDiagram.PNG}\\
 We can modify the inital conditions by modifying the inital conditions for the itegrator blocks. We define acceptable behaviour such that the absolute value of $y$ is less than
-$\frac{3.0-1.8}{2}=0.6$, ie the car cannot move out of its own lane
+$0.1$, ie the car, if ossicalting, cannot have a amplitude greater than 0.1 or 10cm which would be barely noticable.
 \\\\
 Using the following matlab code we can plot out where the initial values of $y$ and $\psi$ result in acceptable behaviour
 \begin{verbatim}
-psi_sweep=0:0.25:2*pi;
-y_sweep=-3:0.1:-1;
-t_final=40;
-valid = zeros(length(psi_sweep),length(y_sweep));
-for i=1:length(psi_sweep)
-    psi_initial=psi_sweep(i);
-    for j=1:length(y_sweep)
-        y_initial=10^(y_sweep(j));
-        a=sim("Problem3.slx");
-
-        data=a.yout.getElement("y");
-        
-        if max(abs(data.Values.Data))<0.6
-            valid(i,j)=1;
+    psi_sweep=-pi/2:0.1:pi/2;
+    y_sweep=-3:0.1:-1;
+    t_final=40;
+    valid = zeros(length(psi_sweep),length(y_sweep));
+    for i=1:length(psi_sweep)
+        psi_initial=psi_sweep(i);
+        i
+        psi_initial
+        for j=1:length(y_sweep)
+            y_initial=10^(y_sweep(j));
+            a=sim("Problem3.slx");
+    
+            data=a.yout.getElement("y");
+            if max(abs(data.Values.Data))<=0.1
+                valid(i,j)=1;
+            end
         end
+    
     end
-
-end
-
-imagesc(y_sweep,psi_sweep,valid)
-colorbar
-ylabel("\psi initial values")
-xlabel("log(abs(y)) initial values")
+    
+    imagesc(y_sweep,psi_sweep,valid)
+    colorbar
+    ylabel("\psi initial values")
+    xlabel("log(abs(y)) initial values")
 \end{verbatim}
 which outputs the following plot\\
 \includegraphics[scale=0.4]{Problem3Fig1.png}\\
 Where the yellow block is the acceptable region, and the blue blocks are the unacceptable regions.\\
-To check this, let us plot out the behaviour of the system for the initial conditions $y(0)=10^{-1.8}=0.0158$ and $\psi(0)=5$\\
+To check this, let us plot out the behaviour of the system for the initial conditions $y(0)=10^{-1.8}=0.0158$ and $\psi(0)=-1.2831$\\
 \includegraphics[scale=0.4]{Problem3Fig2.png}\\
-As we can see, for these initial conditions, the maximum deviation is around $-0.1$ so the controller has adequate performance. Let us also plot out the car's y postion when
-$y(0)=10^{-1.2}=0.0631$ and $\psi(0)=\frac{7\pi}{4}$,
+As we can see, for these initial conditions, the maximum deviation is greater than $-0.1$ so it is not acceptable performance.
 \\\includegraphics[scale=0.4]{Problem3Fig3.png}\\
 As we can see for these intial conditions, the maximum deviation is around $3.5$ so the controller has inadequate performance for these inital conditions. Both of these discovers agree with the plot of initial conditions
 that result in adequate performance that we generated
@@ -134,8 +118,15 @@ $$sv=a$$
 $$\frac{v}{a}=\frac{1}{s}$$
 therefore with a pid controller the transfer function from the input target velocity to the output velocity is 
 $$\frac{(k_p+k_ds+k_i\frac{1}{s})\frac{1}{s}}{1+(k_p+k_ds+k_i\frac{1}{s})\frac{1}{s}}$$
-Therefore the characteristic polyomial is 
-$$s^2+(k_ps+k_ds^2+k_i)=0$$, therefore picking $k_p=k_i=k_d=1$ we get the following routh array from this matlab code
+Therefore the characteristic polyomial is
+$$s^2+(k_ps+k_ds^2+k_i)=0$$, Setting $k_d=0$ for now, we focus on making this system critically damped as well, since we would want
+the car to match velocity as quickly as possible, but not for it to oscillate
+then we have
+$$s^2+k_ps+k_i=0$$
+in order for this system to be critically damped, we want the 
+
+
+therefore picking $k_p=k_i=k_d=1$ we get the following routh array from this matlab code
 \begin{verbatim}
 syms EPS;
 k_d=1;

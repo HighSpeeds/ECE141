@@ -18,24 +18,31 @@ t=a.tout;
 y=a.yout.getElement("y").Values.Data;
 v=a.yout.getElement("v").Values.Data;
 
-subplot(2,2,1); 
+
 plot(t,y)
-title(["y response for velocity controller k_d=",num2str(k_d_v)])
+hold on;
 
-subplot(2,2,2); 
-plot(t,v)
-title(["v response for velocity controller k_d=",num2str(k_d_v)])
+v_target=10;
+a=sim("Problem5.slx");
+t=a.tout;
+y=a.yout.getElement("y").Values.Data;
+v=a.yout.getElement("v").Values.Data;
+ 
+plot(t,y)
 
-k_d_v=100;
+
+v_target=20;
 a=sim("Problem5.slx");
 t=a.tout;
 y=a.yout.getElement("y").Values.Data;
 v=a.yout.getElement("v").Values.Data;
 
-subplot(2,2,3); 
 plot(t,y)
-title(["y response for velocity controller k_d=",num2str(k_d_v)])
 
-subplot(2,2,4); 
-plot(t,v)
-title(["v response for velocity controller k_d=",num2str(k_d_v)])
+legend('Vtarget=15.6464m/s','Vtarget=10m/s', 'Vtarget=20m/s')
+title("y response")
+ylabel("y")
+xlabel("t")
+hold off;
+
+

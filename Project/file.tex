@@ -1,5 +1,5 @@
 \documentclass[12pt]{article}
-\title{ECE 141 Homework 4}
+\title{ECE 141 Project}
 \usepackage{subcaption}
 \author{Lawrence Liu}
 \usepackage{graphicx}
@@ -294,4 +294,104 @@ With this code we get the following graph.\\
 As we can see, making the velocity controller slower does not seem to affect the y response, but as expected slows down the velocity response
 and makes it underdamped.
 \section*{Problem 6}
+Using the following code, we can plot out the y response to different target velocities
+\begin{verbatim}
+v_target=15.6464;
+y_target=0;
+l_r=1.7;
+
+k_p_v=1;
+k_i_v=k_p_v^2/4;
+k_d_v=0;
+k_p_y=4/l_r;
+t_final=20;
+max_step_size=0.0001;
+
+y_initial=0.1;
+psi_initial=0.1;
+v_initial=0;
+
+a=sim("Problem5.slx");
+t=a.tout;
+y=a.yout.getElement("y").Values.Data;
+v=a.yout.getElement("v").Values.Data;
+
+
+plot(t,y)
+hold on;
+
+v_target=10;
+a=sim("Problem5.slx");
+t=a.tout;
+y=a.yout.getElement("y").Values.Data;
+v=a.yout.getElement("v").Values.Data;
+ 
+plot(t,y)
+
+
+v_target=20;
+a=sim("Problem5.slx");
+t=a.tout;
+y=a.yout.getElement("y").Values.Data;
+v=a.yout.getElement("v").Values.Data;
+
+plot(t,y)
+
+legend('Vtarget=15.6464m/s','Vtarget=10m/s', 'Vtarget=20m/s')
+title("y response")
+ylabel("y")
+xlabel("t")
+\end{verbatim}
+\includegraphics[scale=0.3]{Problem6y.jpg}\\
+And with the following code we can plot out the velocity response to different target velocities
+\begin{verbatim}
+v_target=15.6464;
+y_target=0;
+l_r=1.7;
+
+k_p_v=1;
+k_i_v=k_p_v^2/4;
+k_d_v=0;
+k_p_y=4/l_r;
+t_final=20;
+max_step_size=0.0001;
+
+y_initial=0.1;
+psi_initial=0.1;
+v_initial=0;
+
+a=sim("Problem5.slx");
+t=a.tout;
+y=a.yout.getElement("y").Values.Data;
+v=a.yout.getElement("v").Values.Data;
+
+
+plot(t,v)
+hold on;
+
+v_target=10;
+a=sim("Problem5.slx");
+t=a.tout;
+y=a.yout.getElement("y").Values.Data;
+v=a.yout.getElement("v").Values.Data;
+ 
+plot(t,v)
+
+
+v_target=20;
+a=sim("Problem5.slx");
+t=a.tout;
+y=a.yout.getElement("y").Values.Data;
+v=a.yout.getElement("v").Values.Data;
+
+plot(t,v)
+
+legend('Vtarget=15.6464m/s','Vtarget=10m/s', 'Vtarget=20m/s')
+title("velocity response")
+ylabel("y")
+xlabel("t")
+hold off;
+\end{verbatim}
+\includegraphics[scale=0.3]{Problem6v.jpg}\\
+As we can see changing the target velocity does not change the y response, but as expected the velocity response has different asymptotes.
 \end{document}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.1.30)  3 JUN 2022 11:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.1.30)  3 JUN 2022 11:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -351,19 +351,31 @@ File: Problem5Fig4.jpg Graphic file (type jpg)
 <use Problem5Fig4.jpg>
 Package pdftex.def Info: Problem5Fig4.jpg  used on input line 293.
 (pdftex.def)             Requested size: 379.42043pt x 284.56532pt.
-[16] [17 <./Problem5Fig4.jpg>] (file.aux) ) 
+[16] [17 <./Problem5Fig4.jpg>] [18]
+<Problem6y.jpg, id=85, 1264.725pt x 948.54375pt>
+File: Problem6y.jpg Graphic file (type jpg)
+<use Problem6y.jpg>
+Package pdftex.def Info: Problem6y.jpg  used on input line 345.
+(pdftex.def)             Requested size: 379.42043pt x 284.56532pt.
+ [19 <./Problem6y.jpg>]
+<Problem6v.jpg, id=90, 1264.725pt x 948.54375pt>
+File: Problem6v.jpg Graphic file (type jpg)
+<use Problem6v.jpg>
+Package pdftex.def Info: Problem6v.jpg  used on input line 395.
+(pdftex.def)             Requested size: 379.42043pt x 284.56532pt.
+ [20] [21 <./Problem6v.jpg>] (file.aux) ) 
 Here is how much of TeX's memory you used:
- 5808 strings out of 478659
- 92289 string characters out of 2844498
- 383829 words of memory out of 3000000
- 23869 multiletter control sequences out of 15000+600000
+ 5822 strings out of 478659
+ 92533 string characters out of 2844498
+ 383826 words of memory out of 3000000
+ 23881 multiletter control sequences out of 15000+600000
  411748 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  67i,6n,77p,353b,269s stack positions out of 5000i,500n,10000p,200000b,80000s
 <C:/Users/Lawrence/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Lawrence/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Lawrence/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Lawrence/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/Lawrence/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Lawrence/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Lawrence/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Lawrence/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/Lawrence/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Lawrence/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Lawrence/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Lawrence/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on file.pdf (17 pages, 1007217 bytes).
+Output written on file.pdf (21 pages, 1153779 bytes).
 PDF statistics:
- 132 PDF objects out of 1000 (max. 8388607)
+ 147 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 61 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 71 words of extra memory for PDF output out of 10000 (max. 10000000)
 

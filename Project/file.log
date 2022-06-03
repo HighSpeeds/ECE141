@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.1.30)  2 JUN 2022 23:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.1.30)  3 JUN 2022 00:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -228,45 +228,54 @@ Overfull \hbox (11.54515pt too wide) in paragraph at lines 70--72
  []
 
 [3]
-<Problem3BlockDiagram.PNG, id=24, 977.15062pt x 297.11pt>
+<Problem3BlockDiagram.PNG, id=24, 1038.88126pt x 366.87062pt>
 File: Problem3BlockDiagram.PNG Graphic file (type png)
 <use Problem3BlockDiagram.PNG>
 Package pdftex.def Info: Problem3BlockDiagram.PNG  used on input line 74.
-(pdftex.def)             Requested size: 390.85332pt x 118.84189pt.
+(pdftex.def)             Requested size: 415.54514pt x 146.74564pt.
 
-Overfull \hbox (0.85332pt too wide) in paragraph at lines 73--79
+Overfull \hbox (25.54514pt too wide) in paragraph at lines 73--81
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 73--79
+Underfull \hbox (badness 10000) in paragraph at lines 73--81
 
  []
 
 [4 <./Problem2Fig1.png (PNG copy)> <./Problem3BlockDiagram.PNG>]
-<Problem3Fig1.png, id=30, 948.54375pt x 711.4078pt>
+Overfull \hbox (79.30023pt too wide) in paragraph at lines 109--109
+[]        \OT1/cmtt/m/n/12 if max(abs(data.Values.Data))<=y_initial && min(data.Values.Data)>=0[] 
+ []
+
+<Problem3Fig1.png, id=30, 632.3625pt x 474.27188pt>
 File: Problem3Fig1.png Graphic file (type png)
 <use Problem3Fig1.png>
-Package pdftex.def Info: Problem3Fig1.png  used on input line 106.
-(pdftex.def)             Requested size: 379.41077pt x 284.55807pt.
+Package pdftex.def Info: Problem3Fig1.png  used on input line 111.
+(pdftex.def)             Requested size: 252.94052pt x 189.70538pt.
 <Problem3Fig2.png, id=31, 632.3625pt x 447.17062pt>
 File: Problem3Fig2.png Graphic file (type png)
 <use Problem3Fig2.png>
-Package pdftex.def Info: Problem3Fig2.png  used on input line 109.
+Package pdftex.def Info: Problem3Fig2.png  used on input line 114.
 (pdftex.def)             Requested size: 252.94052pt x 178.86507pt.
 <Problem3Fig3.png, id=32, 632.3625pt x 447.17062pt>
 File: Problem3Fig3.png Graphic file (type png)
 <use Problem3Fig3.png>
-Package pdftex.def Info: Problem3Fig3.png  used on input line 111.
+Package pdftex.def Info: Problem3Fig3.png  used on input line 117.
 (pdftex.def)             Requested size: 252.94052pt x 178.86507pt.
- [5] [6 <./Problem3Fig1.png (PNG copy)> <./Problem3Fig2.png (PNG copy)>] [7 <./Problem3Fig3.png (PNG copy)>]
+
+Underfull \hbox (badness 10000) in paragraph at lines 110--120
+
+ []
+
+[5] [6 <./Problem3Fig1.png (PNG copy)> <./Problem3Fig2.png (PNG copy)>] [7 <./Problem3Fig3.png (PNG copy)>]
 <Problem4Fig1.jpg, id=43, 843.15pt x 632.3625pt>
 File: Problem4Fig1.jpg Graphic file (type jpg)
 <use Problem4Fig1.jpg>
-Package pdftex.def Info: Problem4Fig1.jpg  used on input line 152.
+Package pdftex.def Info: Problem4Fig1.jpg  used on input line 164.
 (pdftex.def)             Requested size: 337.25401pt x 252.94052pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 151--153
+Underfull \hbox (badness 10000) in paragraph at lines 163--165
 
  []
 
@@ -274,26 +283,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 151--153
 <Problem5BlockDiagram.PNG, id=47, 803.50188pt x 304.13625pt>
 File: Problem5BlockDiagram.PNG Graphic file (type png)
 <use Problem5BlockDiagram.PNG>
-Package pdftex.def Info: Problem5BlockDiagram.PNG  used on input line 155.
+Package pdftex.def Info: Problem5BlockDiagram.PNG  used on input line 167.
 (pdftex.def)             Requested size: 321.39507pt x 121.65233pt.
  [9 <./Problem4Fig1.jpg> <./Problem5BlockDiagram.PNG>]
 <Problem5v20.jpg, id=52, 843.15pt x 632.3625pt>
 File: Problem5v20.jpg Graphic file (type jpg)
 <use Problem5v20.jpg>
-Package pdftex.def Info: Problem5v20.jpg  used on input line 196.
+Package pdftex.def Info: Problem5v20.jpg  used on input line 208.
 (pdftex.def)             Requested size: 337.25401pt x 252.94052pt.
 <Problem5v15.jpg, id=53, 843.15pt x 632.3625pt>
 File: Problem5v15.jpg Graphic file (type jpg)
 <use Problem5v15.jpg>
-Package pdftex.def Info: Problem5v15.jpg  used on input line 198.
+Package pdftex.def Info: Problem5v15.jpg  used on input line 210.
 (pdftex.def)             Requested size: 337.25401pt x 252.94052pt.
 <Problem5v0.jpg, id=54, 843.15pt x 632.3625pt>
 File: Problem5v0.jpg Graphic file (type jpg)
 <use Problem5v0.jpg>
-Package pdftex.def Info: Problem5v0.jpg  used on input line 200.
+Package pdftex.def Info: Problem5v0.jpg  used on input line 212.
 (pdftex.def)             Requested size: 337.25401pt x 252.94052pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 195--202
+Underfull \hbox (badness 10000) in paragraph at lines 207--214
 
  []
 
@@ -307,7 +316,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  67i,6n,77p,353b,269s stack positions out of 5000i,500n,10000p,200000b,80000s
 <C:/Users/Lawrence/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Lawrence/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Lawrence/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Lawrence/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/Lawrence/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Lawrence/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Lawrence/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Lawrence/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/Lawrence/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Lawrence/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Lawrence/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Lawrence/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on file.pdf (12 pages, 638826 bytes).
+Output written on file.pdf (12 pages, 643158 bytes).
 PDF statistics:
  114 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

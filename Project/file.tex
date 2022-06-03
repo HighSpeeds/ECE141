@@ -72,45 +72,51 @@ As we can see, the system is critically damped since the poles are at the same p
 \section*{Problem 3}
 The blockdiagram for the nonlinear system looks like the following\\
 \includegraphics[scale=0.4]{Problem3BlockDiagram.PNG}\\
-We can modify the inital conditions by modifying the inital conditions for the itegrator blocks. We define acceptable behaviour such that the absolute value of $y$ is less than
-$0.1$, ie the car, if ossicalting, cannot have a amplitude greater than 0.1 or 10cm which would be barely noticable.
+We can modify the initial conditions by modifying the inital conditions for the integrator blocks. We define acceptable behavior, 
+as the car not oscillating, so the y value cannot exceed the initial y value, and cannot be less than 0 if we start the car with a positive y,
+and vice versa for a negative initial y
+$0.1$, ie the car, if oscillate, cannot have a amplitude greater than 0.1 or 10cm which would be barely noticeable.
 \\\\
-Using the following matlab code we can plot out where the initial values of $y$ and $\psi$ result in acceptable behaviour
+Using the following matlab code we can plot out where the initial values of $y$ and $\psi$ result in acceptable behavior
 \begin{verbatim}
-    psi_sweep=-pi/2:0.1:pi/2;
-    y_sweep=-3:0.1:-1;
-    t_final=40;
-    valid = zeros(length(psi_sweep),length(y_sweep));
-    for i=1:length(psi_sweep)
-        psi_initial=psi_sweep(i);
-        i
-        psi_initial
-        for j=1:length(y_sweep)
-            y_initial=10^(y_sweep(j));
-            a=sim("Problem3.slx");
-    
-            data=a.yout.getElement("y");
-            if max(abs(data.Values.Data))<=0.1
-                valid(i,j)=1;
-            end
+l_r=1.7;
+v=15.6464;
+k_p=4/l_r;
+psi_sweep=-pi/6:0.02:pi/6;
+y_sweep=-2:0.05:-1;
+t_final=40;
+valid = zeros(length(psi_sweep),length(y_sweep));
+
+for i=1:length(psi_sweep)
+    psi_initial=psi_sweep(i);
+    psi_initial
+    for j=1:length(y_sweep)
+        y_initial=10^(y_sweep(j));
+        a=sim("Problem3.slx");
+
+        data=a.yout.getElement("y");
+        if max(abs(data.Values.Data))<=y_initial && min(data.Values.Data)>=0
+            valid(i,j)=1;
         end
-    
     end
-    
-    imagesc(y_sweep,psi_sweep,valid)
-    colorbar
-    ylabel("\psi initial values")
-    xlabel("log(abs(y)) initial values")
+
+end
+
+imagesc(y_sweep,psi_sweep,valid)
+colorbar
+ylabel("\psi initial values")
+xlabel("log(abs(y)) initial values")
 \end{verbatim}
 which outputs the following plot\\
 \includegraphics[scale=0.4]{Problem3Fig1.png}\\
 Where the yellow block is the acceptable region, and the blue blocks are the unacceptable regions.\\
-To check this, let us plot out the behaviour of the system for the initial conditions $y(0)=10^{-1.8}=0.0158$ and $\psi(0)=-1.2831$\\
+To check this, let us plot out the behavior of the system for the initial conditions $y(0)=0.1$ and $\psi(0)=0.1$\\
 \includegraphics[scale=0.4]{Problem3Fig2.png}\\
-As we can see, for these initial conditions, the maximum deviation is greater than $-0.1$ so it is not acceptable performance.
+As we can see, for these initial conditions, the system does not oscillate, so the performance is satisfactory. 
+Now for the initial conditions $y(0)=0.1$ and $\psi(0)=\frac{\pi}{6}$, we get the following graph for y\\
 \\\includegraphics[scale=0.4]{Problem3Fig3.png}\\
-As we can see for these intial conditions, the maximum deviation is around $3.5$ so the controller has inadequate performance for these inital conditions. Both of these discovers agree with the plot of initial conditions
-that result in adequate performance that we generated
+As we can see for these initial conditions, the system oscillates, with y first increasing to more than $0.15$ before it decreases
+So this performance is not satisfactory
 \section*{Problem 4}
 We have
 $$\frac{d}{dt}v=a$$
@@ -118,12 +124,18 @@ $$sv=a$$
 $$\frac{v}{a}=\frac{1}{s}$$
 therefore with a pid controller the transfer function from the input target velocity to the output velocity is 
 $$\frac{(k_p+k_ds+k_i\frac{1}{s})\frac{1}{s}}{1+(k_p+k_ds+k_i\frac{1}{s})\frac{1}{s}}$$
-Therefore the characteristic polyomial is
+Therefore the characteristic polynomial is
 $$s^2+(k_ps+k_ds^2+k_i)=0$$, Setting $k_d=0$ for now, we focus on making this system critically damped as well, since we would want
 the car to match velocity as quickly as possible, but not for it to oscillate
 then we have
 $$s^2+k_ps+k_i=0$$
-in order for this system to be critically damped, we want the 
+in order for this system to be critically damped, we want,
+$$\sqrt{k_i}=\frac{k_p}{2}$$
+In order to pick the $k_i$ and $k_p$, we set the maximum acceleration of the car to be around $0.5g$ or around $4.9m/s^2$ which will result to a 0-60mph
+of around $5.5s$.
+
+
+picking $k_p=1$ and $k_i=\frac{1}{4}$, 
 
 
 therefore picking $k_p=k_i=k_d=1$ we get the following routh array from this matlab code

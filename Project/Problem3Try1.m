@@ -1,13 +1,11 @@
 l_r=1.7;
-
 v=15.6464;
-
 k_p=4/l_r;
-
-psi_sweep=-pi/2:0.1:pi/2;
+psi_sweep=-pi/6:0.02:pi/6;
 y_sweep=-2:0.05:-1;
 t_final=40;
 valid = zeros(length(psi_sweep),length(y_sweep));
+
 for i=1:length(psi_sweep)
     psi_initial=psi_sweep(i);
     psi_initial

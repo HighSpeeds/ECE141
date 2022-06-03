@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.1.30)  3 JUN 2022 01:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.1.30)  3 JUN 2022 11:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -274,45 +274,96 @@ File: Problem4Fig1.jpg Graphic file (type jpg)
 <use Problem4Fig1.jpg>
 Package pdftex.def Info: Problem4Fig1.jpg  used on input line 144.
 (pdftex.def)             Requested size: 337.25401pt x 252.94052pt.
-<Problem5BlockDiagram.PNG, id=44, 961.5925pt x 334.24875pt>
+<Problem5BlockDiagram.PNG, id=44, 1054.94125pt x 313.83917pt>
 File: Problem5BlockDiagram.PNG Graphic file (type png)
 <use Problem5BlockDiagram.PNG>
 Package pdftex.def Info: Problem5BlockDiagram.PNG  used on input line 149.
-(pdftex.def)             Requested size: 384.63019pt x 133.69713pt.
- [8 <./Problem4Fig1.jpg>] [9 <./Problem5BlockDiagram.PNG>]
-<Problem5v20.jpg, id=52, 843.15pt x 632.3625pt>
+(pdftex.def)             Requested size: 421.96902pt x 125.53343pt.
+
+Overfull \hbox (31.96902pt too wide) in paragraph at lines 148--152
+[] 
+ []
+
+[8 <./Problem4Fig1.jpg>] [9 <./Problem5BlockDiagram.PNG>]
+<Problem5v20.jpg, id=52, 1264.725pt x 948.54375pt>
 File: Problem5v20.jpg Graphic file (type jpg)
 <use Problem5v20.jpg>
-Package pdftex.def Info: Problem5v20.jpg  used on input line 190.
-(pdftex.def)             Requested size: 337.25401pt x 252.94052pt.
-<Problem5v15.jpg, id=53, 843.15pt x 632.3625pt>
+Package pdftex.def Info: Problem5v20.jpg  used on input line 191.
+(pdftex.def)             Requested size: 505.88104pt x 379.41077pt.
+<Problem5v15.jpg, id=53, 1264.725pt x 948.54375pt>
 File: Problem5v15.jpg Graphic file (type jpg)
 <use Problem5v15.jpg>
-Package pdftex.def Info: Problem5v15.jpg  used on input line 192.
-(pdftex.def)             Requested size: 337.25401pt x 252.94052pt.
-<Problem5v0.jpg, id=54, 843.15pt x 632.3625pt>
+Package pdftex.def Info: Problem5v15.jpg  used on input line 193.
+(pdftex.def)             Requested size: 505.88104pt x 379.41077pt.
+<Problem5v0.jpg, id=54, 1264.725pt x 948.54375pt>
 File: Problem5v0.jpg Graphic file (type jpg)
 <use Problem5v0.jpg>
-Package pdftex.def Info: Problem5v0.jpg  used on input line 194.
-(pdftex.def)             Requested size: 337.25401pt x 252.94052pt.
+Package pdftex.def Info: Problem5v0.jpg  used on input line 195.
+(pdftex.def)             Requested size: 505.88104pt x 379.41077pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 189--196
+Overfull \hbox (115.88104pt too wide) in paragraph at lines 190--200
+[] 
+ []
+
+
+Overfull \hbox (115.88104pt too wide) in paragraph at lines 190--200
+[] 
+ []
+
+
+Overfull \hbox (115.88104pt too wide) in paragraph at lines 190--200
+[] 
+ []
+
+[10] [11 <./Problem5v20.jpg>] [12 <./Problem5v15.jpg>] [13 <./Problem5v0.jpg>]
+<Problem5Fig3.jpg, id=68, 1264.725pt x 948.54375pt>
+File: Problem5Fig3.jpg Graphic file (type jpg)
+<use Problem5Fig3.jpg>
+Package pdftex.def Info: Problem5Fig3.jpg  used on input line 245.
+(pdftex.def)             Requested size: 379.42043pt x 284.56532pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 244--246
 
  []
 
-[10 <./Problem5v20.jpg>] [11 <./Problem5v15.jpg> <./Problem5v0.jpg>] [12] (file.aux) ) 
+[14] [15 <./Problem5Fig3.jpg>]
+Overfull \hbox (11.3752pt too wide) in paragraph at lines 291--291
+[]\OT1/cmtt/m/n/12 title(["y response for velocity controller k_d=",num2str(k_d_v)])[] 
+ []
+
+
+Overfull \hbox (11.3752pt too wide) in paragraph at lines 291--291
+[]\OT1/cmtt/m/n/12 title(["v response for velocity controller k_d=",num2str(k_d_v)])[] 
+ []
+
+
+Overfull \hbox (11.3752pt too wide) in paragraph at lines 291--291
+[]\OT1/cmtt/m/n/12 title(["y response for velocity controller k_d=",num2str(k_d_v)])[] 
+ []
+
+
+Overfull \hbox (11.3752pt too wide) in paragraph at lines 291--291
+[]\OT1/cmtt/m/n/12 title(["v response for velocity controller k_d=",num2str(k_d_v)])[] 
+ []
+
+<Problem5Fig4.jpg, id=75, 1264.725pt x 948.54375pt>
+File: Problem5Fig4.jpg Graphic file (type jpg)
+<use Problem5Fig4.jpg>
+Package pdftex.def Info: Problem5Fig4.jpg  used on input line 293.
+(pdftex.def)             Requested size: 379.42043pt x 284.56532pt.
+[16] [17 <./Problem5Fig4.jpg>] (file.aux) ) 
 Here is how much of TeX's memory you used:
- 5794 strings out of 478659
- 92003 string characters out of 2844498
+ 5808 strings out of 478659
+ 92289 string characters out of 2844498
  383829 words of memory out of 3000000
- 23857 multiletter control sequences out of 15000+600000
+ 23869 multiletter control sequences out of 15000+600000
  411748 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  67i,6n,77p,353b,269s stack positions out of 5000i,500n,10000p,200000b,80000s
 <C:/Users/Lawrence/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Lawrence/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Lawrence/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Lawrence/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/Lawrence/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Lawrence/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Lawrence/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Lawrence/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/Lawrence/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Lawrence/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Lawrence/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Lawrence/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on file.pdf (12 pages, 640143 bytes).
+Output written on file.pdf (17 pages, 1007217 bytes).
 PDF statistics:
- 114 PDF objects out of 1000 (max. 8388607)
+ 132 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 51 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 61 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -147,13 +147,14 @@ less than 0.
 \section*{Problem 5}
 The blockdiagram for the nonlinear system looks like the following\\
 \includegraphics[scale=0.4]{Problem5BlockDiagram.PNG}\\
-Using the following code we plot out the initial values of $y$ and $\psi$ result in acceptable behaviour, when $v$ initialy is $10m/s$, $15.6464m/s$, and $20m/s$
+Using the following code we plot out the initial values of $y$ and $\psi$ result in acceptable behavior, when $v$ initially is $10m/s$, $15.6464m/s$, and $20m/s$.
+We keep the same definition of acceptable behavior as before
 \begin{verbatim}
     v_target=15.6464;
 y_target=0;
 l_r=1.7;
 
-v_sweep=[0 15.6464 20];
+v_sweep=[10 15.6464 20];
 log_y_sweep=-3:0.1:-1;
 psi_sweep=0:0.25:2*pi;
 
@@ -190,10 +191,107 @@ which results in the following plots, for $v=20m/s$\\
 \includegraphics[scale=0.4]{Problem5v20.jpg}\\
 for $v=15.6464m/s$\\
 \includegraphics[scale=0.4]{Problem5v15.jpg}\\
-and for $v=0m/s$\\
+and for $v=10m/s$\\
 \includegraphics[scale=0.4]{Problem5v0.jpg}\\
 As we can see changing the initial v does not seem to matter at all\\
+To verify this we plot out the velocity and y for the initial conditions, $v(0)=0$, $y(0)=0.1$, $\psi(0)=0.1$,
+ and for the initial conditions $v(0)=0$, $y(0)=0.1$, $\psi(0)=\frac{\pi}{6}=0.523$
+Using the following code, we can do that
+\begin{verbatim}
+v_target=15.6464;
+y_target=0;
+l_r=1.7;
 
 
+k_p_v=1;
+k_i_v=k_p_v^2/4;
+k_d_v=0;
+k_p_y=4/l_r;
+t_final=20;
+max_step_size=0.0001;
+
+y_initial=0.1;
+psi_initial=0.1;
+v_initial=0;
+
+a=sim("Problem5.slx");
+t=a.tout;
+y=a.yout.getElement("y").Values.Data;
+v=a.yout.getElement("v").Values.Data;
+
+subplot(2,2,1); 
+plot(t,y)
+title(["y response for psi initial=",num2str(psi_initial)])
+
+subplot(2,2,2); 
+plot(t,v)
+title(["v response for psi initial=",num2str(psi_initial)])
+
+psi_initial=pi/6;
+a=sim("Problem5.slx");
+t=a.tout;
+y=a.yout.getElement("y").Values.Data;
+v=a.yout.getElement("v").Values.Data;
+
+subplot(2,2,3); 
+plot(t,y)
+title(["y response for psi initial=",num2str(psi_initial)])
+
+subplot(2,2,4); 
+plot(t,v)
+title(["v response for psi initial=",num2str(psi_initial)])
+\end{verbatim}
+We get the following graph.\\
+\includegraphics[scale=0.3]{Problem5Fig3.jpg}\\
+
+Using the following code we can also plot out the velocity and y response for different $k_d$, to slow down the controller
+regulating velocity we can increase $k_d$. We choose the slower velocity controller to have a $k_d=0.5$
+\begin{verbatim}
+v_target=15.6464;
+y_target=0;
+l_r=1.7;
+
+k_p_v=1;
+k_i_v=k_p_v^2/4;
+k_d_v=0;
+k_p_y=4/l_r;
+t_final=20;
+max_step_size=0.0001;
+
+y_initial=0.1;
+psi_initial=0.1;
+v_initial=0;
+
+a=sim("Problem5.slx");
+t=a.tout;
+y=a.yout.getElement("y").Values.Data;
+v=a.yout.getElement("v").Values.Data;
+
+subplot(2,2,1); 
+plot(t,y)
+title(["y response for velocity controller k_d=",num2str(k_d_v)])
+
+subplot(2,2,2); 
+plot(t,v)
+title(["v response for velocity controller k_d=",num2str(k_d_v)])
+
+k_d_v=0.5;
+a=sim("Problem5.slx");
+t=a.tout;
+y=a.yout.getElement("y").Values.Data;
+v=a.yout.getElement("v").Values.Data;
+
+subplot(2,2,3); 
+plot(t,y)
+title(["y response for velocity controller k_d=",num2str(k_d_v)])
+
+subplot(2,2,4); 
+plot(t,v)
+title(["v response for velocity controller k_d=",num2str(k_d_v)])
+\end{verbatim}
+With this code we get the following graph.\\
+\includegraphics[scale=0.3]{Problem5Fig4.jpg}\\
+As we can see, making the velocity controller slower does not seem to affect the y response, but as expected slows down the velocity response
+and makes it underdamped.
 \section*{Problem 6}
 \end{document}

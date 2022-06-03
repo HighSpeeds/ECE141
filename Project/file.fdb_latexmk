@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1654245376 "c:/Users/Lawrence/Desktop/UCLA/Classes/ECE141/Project/file.tex" "file.pdf" "file" 1654245378
+["pdflatex"] 1654281103 "c:/Users/Lawrence/Desktop/UCLA/Classes/ECE141/Project/file.tex" "file.pdf" "file" 1654281105
   "C:/Users/Lawrence/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1653801395 81239 da89e99f8950bd4b937749f4c74af311 ""
   "C:/Users/Lawrence/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1643615794 9771389 75e56a91aefd99356202ce3fe2a79783 ""
   "C:/Users/Lawrence/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233955448 1004 54797486969f23fa377b128694d548df ""
@@ -69,13 +69,15 @@
   "Problem3Fig2.png" 1654241172 10340 6e2358f06b54c362eb2137300acd677c ""
   "Problem3Fig3.png" 1654241000 13901 db9d4ea32ba939079ce324890540515b ""
   "Problem4Fig1.jpg" 1654243838 87817 1f02904acc148245ad5aee2e6e1b3c1d ""
-  "Problem5BlockDiagram.PNG" 1654245375 62362 37f07952b199f78a5eadb4be221bd0d5 ""
-  "Problem5v0.jpg" 1653904344 37926 72ff46bbab38e35bfc4537833d055900 ""
-  "Problem5v15.jpg" 1653904039 38933 f94f3fb8db959e3a01888f0e0d678a7d ""
-  "Problem5v20.jpg" 1653903991 38192 5c301712ce2996014148b7a5074398aa ""
-  "c:/Users/Lawrence/Desktop/UCLA/Classes/ECE141/Project/file.tex" 1654243906 7476 e99123b3cac7d0963e542307b7fcb574 ""
-  "file.aux" 1654245377 33 e6d77a6cc1977d88a849501f83258f9d "pdflatex"
-  "file.tex" 1654243906 7476 e99123b3cac7d0963e542307b7fcb574 ""
+  "Problem5BlockDiagram.PNG" 1654281018 136107 dba3b28c2fdb49b33e67e85df952fcf8 ""
+  "Problem5Fig3.jpg" 1654280482 92990 ba851a7c520b3aca6abfcecefc407040 ""
+  "Problem5Fig4.jpg" 1654280980 99589 d530510562ef445bb5060cfffb9efcb0 ""
+  "Problem5v0.jpg" 1654278928 75357 423801fe2fc9e475087a674cc21426dd ""
+  "Problem5v15.jpg" 1654278313 77060 310e29b849adef3456db925266744fb9 ""
+  "Problem5v20.jpg" 1654280449 75513 913fedc40aaa05f57f5894944a7cc737 ""
+  "c:/Users/Lawrence/Desktop/UCLA/Classes/ECE141/Project/file.tex" 1654281103 10037 4ad9e83ac4e353be455decd1d89f2dc4 ""
+  "file.aux" 1654281105 33 dca2c25acf2dd0fcc68a5b8e6d3e57b9 "pdflatex"
+  "file.tex" 1654281103 10037 4ad9e83ac4e353be455decd1d89f2dc4 ""
   (generated)
   "file.aux"
   "file.log"
